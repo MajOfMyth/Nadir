@@ -1,0 +1,24 @@
+{
+
+  "rarity.nadir:worthless": "0£",
+  "rarity.nadir:legendary": "Worst Minecraft Game-ey",
+  "rarity.nadir:ancient": "\"It's old!\"",
+  "rarity.nadir:forgotten": "I forgor",
+  "rarity.nadir:primal": "Aspid",
+  "rarity.nadir:stellar": "Starwalker",
+  "rarity.nadir:divine": "Holy-",
+  "rarity.nadir:esoteric": "Egocentric",
+  "rarity.nadir:cataclysmic": "LEnderic",
+
+  "item.nadir.worthless_material": "Random Bullshit",
+  "item.nadir.legendary_material": "Broken Pringle",
+  "item.nadir.ancient_material": "mushroom",
+  "item.nadir.forgotten_material": "Brown Turtle with Bullet Wound",
+  "item.nadir.primal_material": "pink rarity materials",
+  "item.nadir.stellar_material": "Viagra Dust",
+  "item.nadir.divine_material": "Ringconn Gen 2 Air (Copper)",
+  "item.nadir.esoteric_material": "dark teal rarity materials",
+  "item.nadir.cataclysmic_material": "Blackberry Tart (Uncooked)",
+
+  "block.nadir.cataclysmic_reforging_table": "hs Reforging Table"
+}

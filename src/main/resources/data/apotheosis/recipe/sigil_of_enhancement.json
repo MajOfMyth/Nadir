@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "apotheosis",
+  "key": {
+    "E": {
+      "item": "apotheosis:gem_fused_slate"
+    },
+    "G": {
+      "item": "apotheosis:gem_dust"
+    },
+    "M": {
+      "item": "nadir:stellar_material"
+    }
+  },
+  "pattern": [
+    "GEG",
+    "EME",
+    "GEG"
+  ],
+  "result": {
+    "count": 4,
+    "id": "apotheosis:sigil_of_enhancement"
+  }
+}

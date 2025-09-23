@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "apotheosis",
+  "key": {
+    "E": {
+      "item": "minecraft:enchanting_table"
+    },
+    "M": {
+      "item": "nadir:esoteric_material"
+    },
+    "N": {
+      "item": "minecraft:nether_star"
+    },
+    "P": {
+      "item": "minecraft:polished_blackstone"
+    }
+  },
+  "pattern": [
+    " N ",
+    "MEM",
+    "PPP"
+  ],
+  "result": {
+    "count": 1,
+    "id": "apotheosis:augmenting_table"
+  }
+}

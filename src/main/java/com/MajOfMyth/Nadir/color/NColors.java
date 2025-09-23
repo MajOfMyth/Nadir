@@ -6,14 +6,10 @@ import java.awt.Color;
 public class NColors {
 
     public static int[] CreateGradient(int Color1, int Color2, int Steps) {
-
         Color RGBColor1 = new Color(Color1);
         Color RGBColor2 = new Color(Color2);
-
         float blending, inverseBlending;
-
         int[] Gradient = new int[Steps];
-
 
         for(int i = 0; i < Steps; i++) {
 
@@ -28,20 +24,16 @@ public class NColors {
             Gradient[i] = Blended;
 
         }
-
         return Gradient;
     }
 
     public static int[] PingPong(int[] Base) {
-
         int[] Final = new int[(Base.length*2)];
 
         System.arraycopy(Base, 0, Final, 0, Base.length);
-
         for(int i = 0; i < Base.length; i++) {
             System.arraycopy(Base, Base.length-i-1, Final, Base.length+i, 1);
         }
-
         return Final;
     }
 

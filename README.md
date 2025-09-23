@@ -1,25 +1,26 @@
-
-Installation information
+Hi
 =======
+Welcome to Nadir, my addon for [Apotheosis by Shadows_of_Fire](github.com/Shadows-of-Fire/Apotheosis). Currently it adds 9 aditional rarity tiers, as well as changes to the world tiers to support them. If you have any suggestions feel free to reach out here, or dm me on discord (majofmyth)
 
-This template repository can be directly cloned to get you started with a new
-mod. Simply create a new repository cloned from this one, by following the
-instructions provided by [GitHub](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template).
+(NEW) Worthless - Various Junk
+Common - Mysterious Scrap Metal
+Uncommon - Timeworn Fabric
+Rare - Luminous Crystal Shard
+Epic - Arcane Sands
+Mythic - Godforged Pearl
+(NEW) Legendary - Fragments of Uru
+(NEW) Ancient - Titan's Blood
+(NEW) Forgotten - Time-Lost Avatar
+(NEW) Primal - Primordial Slime
+(NEW) Stellar - Stardust
+(NEW) Divine - Ring of Eyes
+(NEW) Esoteric - Entrancing Rune
+(NEW) Cataclysmic - Black Hole Extract
 
-Once you have your clone, simply open the repository in the IDE of your choice. The usual recommendation for an IDE is either IntelliJ IDEA or Eclipse.
 
-If at any point you are missing libraries in your IDE, or you've run into problems you can
-run `gradlew --refresh-dependencies` to refresh the local cache. `gradlew clean` to reset everything 
-{this does not affect your code} and then start the process again.
 
-Mapping Names:
+Planned Features:
 ============
-By default, the MDK is configured to use the official mapping names from Mojang for methods and fields 
-in the Minecraft codebase. These names are covered by a specific license. All modders should be aware of this
-license. For the latest license text, refer to the mapping file itself, or the reference copy here:
-https://github.com/NeoForged/NeoForm/blob/main/Mojang.md
-
-Additional Resources: 
-==========
-Community Documentation: https://docs.neoforged.net/  
-NeoForged Discord: https://discord.neoforged.net/
+Compat for [K4yne's Fallen Gems & Affixes](github.com/KiraKayn/Fallen-Gems-Affixes)
+Compat for [MuonR's Apotheosis x Iron's Spellbooks Compat](github.com/muon-rw/Apotheosis-Irons-Spells)
+Compat for [ianm1647's Apothic Compats](github.com/ianm1647/apothic-compats)

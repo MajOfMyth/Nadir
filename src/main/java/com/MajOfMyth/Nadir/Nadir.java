@@ -21,8 +21,6 @@ import net.neoforged.neoforge.registries.DeferredRegister;
 import net.neoforged.neoforge.registries.NeoForgeRegistries;
 import org.slf4j.Logger;
 
-import com.mojang.logging.LogUtils;
-
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.bus.api.SubscribeEvent;
 import net.neoforged.fml.common.Mod;
@@ -33,7 +31,6 @@ import dev.shadowsoffire.apotheosis.data.RarityProvider;
 import org.slf4j.LoggerFactory;
 
 import java.io.File;
-import java.util.function.Supplier;
 
 @Mod(Nadir.MODID)
 public class Nadir {
@@ -87,7 +84,7 @@ public class Nadir {
                 .provider(NInvaderProvider::new)
                 .build(e);
 
-
+        //im like 78% sure this is not necessary but ill remove it later :3
         Object2IntOpenHashMap<String> map = (Object2IntOpenHashMap<String>) DataProvider.FIXED_ORDER_FIELDS;
         map.put("nadir:worthless", 0);
         map.put("nadir:legendary", 6);

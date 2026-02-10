@@ -21,6 +21,6 @@ Mythic - Godforged Pearl<br>
 
 Planned Features:
 ============
-Compat for [K4yne's Fallen Gems & Affixes](github.com/KiraKayn/Fallen-Gems-Affixes)<br>
-Compat for [MuonR's Apotheosis x Iron's Spellbooks Compat](github.com/muon-rw/Apotheosis-Irons-Spells)<br>
-Compat for [ianm1647's Apothic Compats](github.com/ianm1647/apothic-compats)<br>
+Compat for [K4yne's Fallen Gems & Affixes](https://github.com/KiraKayn/Fallen-Gems-Affixes)<br>
+Compat for [MuonR's Apotheosis x Iron's Spellbooks Compat](https://github.com/muon-rw/Apotheosis-Irons-Spells)<br>
+Compat for [ianm1647's Apothic Compats](https://github.com/ianm1647/apothic-compats)<br>

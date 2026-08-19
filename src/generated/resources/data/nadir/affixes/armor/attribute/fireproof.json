@@ -1,0 +1,26 @@
+{
+    "type": "apotheosis:attribute",
+    "attribute": "minecraft:generic.burning_time",
+    "categories": [
+        "apotheosis:helmet"
+    ],
+    "definition": {
+        "affix_type": "stat",
+        "exclusive_set": [],
+        "weights": {
+            "quality": 0.1,
+            "weight": 25
+        }
+    },
+    "operation": "add_multiplied_base",
+    "values": {
+        "nadir:legendary": -1.0,
+        "nadir:ancient": -1.0,
+        "nadir:forgotten": -1.0,
+        "nadir:primal": -1.0,
+        "nadir:stellar": -1.0,
+        "nadir:divine": -1.0,
+        "nadir:esoteric": -1.0,
+        "nadir:cataclysmic": -1.0
+    }
+}

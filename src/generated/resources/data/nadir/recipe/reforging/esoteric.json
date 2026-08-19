@@ -1,0 +1,11 @@
+{
+    "type": "apotheosis:reforging",
+    "level_cost": 150,
+    "material_cost": 6,
+    "rarity": "nadir:esoteric",
+    "sigil_cost": 8,
+    "tables": [
+        "nadir:divine_reforging_table",
+        "nadir:cataclysmic_reforging_table"
+    ]
+}

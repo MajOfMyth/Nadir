@@ -1,0 +1,25 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "group": "nadir",
+    "key": {
+        "H": {
+            "item": "minecraft:heavy_core"
+        },
+        "L": {
+            "item": "nadir:legendary_material"
+        },
+        "R": {
+            "item": "apotheosis:reforging_table"
+        }
+    },
+    "pattern": [
+        "LHL",
+        "LRL",
+        "LLL"
+    ],
+    "result": {
+        "count": 1,
+        "id": "nadir:ancient_reforging_table"
+    }
+}

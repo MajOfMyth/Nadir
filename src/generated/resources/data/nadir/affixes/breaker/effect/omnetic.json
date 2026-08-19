@@ -1,0 +1,213 @@
+{
+    "type": "apotheosis:omnetic",
+    "definition": {
+        "affix_type": "basic_effect",
+        "exclusive_set": [],
+        "weights": {
+            "quality": 5.0,
+            "weight": 25
+        }
+    },
+    "values": {
+        "nadir:legendary": {
+            "items": [
+                {
+                    "count": 1,
+                    "id": "minecraft:netherite_axe"
+                },
+                {
+                    "count": 1,
+                    "id": "minecraft:netherite_shovel"
+                },
+                {
+                    "count": 1,
+                    "id": "minecraft:netherite_pickaxe"
+                },
+                {
+                    "count": 1,
+                    "id": "minecraft:netherite_sword"
+                },
+                {
+                    "count": 1,
+                    "id": "minecraft:netherite_hoe"
+                }
+            ],
+            "name": "netherite"
+        },
+        "nadir:ancient": {
+            "items": [
+                {
+                    "count": 1,
+                    "id": "minecraft:netherite_axe"
+                },
+                {
+                    "count": 1,
+                    "id": "minecraft:netherite_shovel"
+                },
+                {
+                    "count": 1,
+                    "id": "minecraft:netherite_pickaxe"
+                },
+                {
+                    "count": 1,
+                    "id": "minecraft:netherite_sword"
+                },
+                {
+                    "count": 1,
+                    "id": "minecraft:netherite_hoe"
+                }
+            ],
+            "name": "netherite"
+        },
+        "nadir:forgotten": {
+            "items": [
+                {
+                    "count": 1,
+                    "id": "minecraft:netherite_axe"
+                },
+                {
+                    "count": 1,
+                    "id": "minecraft:netherite_shovel"
+                },
+                {
+                    "count": 1,
+                    "id": "minecraft:netherite_pickaxe"
+                },
+                {
+                    "count": 1,
+                    "id": "minecraft:netherite_sword"
+                },
+                {
+                    "count": 1,
+                    "id": "minecraft:netherite_hoe"
+                }
+            ],
+            "name": "netherite"
+        },
+        "nadir:primal": {
+            "items": [
+                {
+                    "count": 1,
+                    "id": "minecraft:netherite_axe"
+                },
+                {
+                    "count": 1,
+                    "id": "minecraft:netherite_shovel"
+                },
+                {
+                    "count": 1,
+                    "id": "minecraft:netherite_pickaxe"
+                },
+                {
+                    "count": 1,
+                    "id": "minecraft:netherite_sword"
+                },
+                {
+                    "count": 1,
+                    "id": "minecraft:netherite_hoe"
+                }
+            ],
+            "name": "netherite"
+        },
+        "nadir:stellar": {
+            "items": [
+                {
+                    "count": 1,
+                    "id": "minecraft:netherite_axe"
+                },
+                {
+                    "count": 1,
+                    "id": "minecraft:netherite_shovel"
+                },
+                {
+                    "count": 1,
+                    "id": "minecraft:netherite_pickaxe"
+                },
+                {
+                    "count": 1,
+                    "id": "minecraft:netherite_sword"
+                },
+                {
+                    "count": 1,
+                    "id": "minecraft:netherite_hoe"
+                }
+            ],
+            "name": "netherite"
+        },
+        "nadir:divine": {
+            "items": [
+                {
+                    "count": 1,
+                    "id": "minecraft:netherite_axe"
+                },
+                {
+                    "count": 1,
+                    "id": "minecraft:netherite_shovel"
+                },
+                {
+                    "count": 1,
+                    "id": "minecraft:netherite_pickaxe"
+                },
+                {
+                    "count": 1,
+                    "id": "minecraft:netherite_sword"
+                },
+                {
+                    "count": 1,
+                    "id": "minecraft:netherite_hoe"
+                }
+            ],
+            "name": "netherite"
+        },
+        "nadir:esoteric": {
+            "items": [
+                {
+                    "count": 1,
+                    "id": "minecraft:netherite_axe"
+                },
+                {
+                    "count": 1,
+                    "id": "minecraft:netherite_shovel"
+                },
+                {
+                    "count": 1,
+                    "id": "minecraft:netherite_pickaxe"
+                },
+                {
+                    "count": 1,
+                    "id": "minecraft:netherite_sword"
+                },
+                {
+                    "count": 1,
+                    "id": "minecraft:netherite_hoe"
+                }
+            ],
+            "name": "netherite"
+        },
+        "nadir:cataclysmic": {
+            "items": [
+                {
+                    "count": 1,
+                    "id": "minecraft:netherite_axe"
+                },
+                {
+                    "count": 1,
+                    "id": "minecraft:netherite_shovel"
+                },
+                {
+                    "count": 1,
+                    "id": "minecraft:netherite_pickaxe"
+                },
+                {
+                    "count": 1,
+                    "id": "minecraft:netherite_sword"
+                },
+                {
+                    "count": 1,
+                    "id": "minecraft:netherite_hoe"
+                }
+            ],
+            "name": "netherite"
+        }
+    }
+}

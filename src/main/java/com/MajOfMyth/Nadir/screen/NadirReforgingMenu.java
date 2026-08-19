@@ -2,6 +2,7 @@ package com.MajOfMyth.Nadir.screen;
 
 import com.MajOfMyth.Nadir.Nad;
 import com.MajOfMyth.Nadir.block.NadirReforgingTableTile;
+import dev.shadowsoffire.apotheosis.Apoth;
 import dev.shadowsoffire.apotheosis.affix.reforging.ReforgingRecipe;
 import org.jetbrains.annotations.NotNull;
 
@@ -192,9 +193,7 @@ public class NadirReforgingMenu extends BlockEntityMenu<NadirReforgingTableTile>
                 NadirReforgingMenu.this.updateSeed();
             }
 
-            player.playSound(SoundEvents.EVOKER_CAST_SPELL, 0.99F, player.level().random.nextFloat() * 0.25F + 1F);
-            player.playSound(SoundEvents.AMETHYST_CLUSTER_STEP, 0.34F, player.level().random.nextFloat() * 0.2F + 0.8F);
-            player.playSound(SoundEvents.SMITHING_TABLE_USE, 0.45F, player.level().random.nextFloat() * 0.5F + 0.75F);
+            player.playSound(Apoth.Sounds.REFORGE_ITEM_REFORGED.value(), 0.25F, player.level().random.nextFloat() * 0.15F + 1F);
         }
     }
 

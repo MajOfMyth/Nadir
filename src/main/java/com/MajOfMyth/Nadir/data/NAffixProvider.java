@@ -1254,7 +1254,7 @@ public class NAffixProvider extends DynamicRegistryProvider<Affix> {
                         .build());
 
         this.add(Nadir.loc("melee/executing"),
-                AffixBuilder.simple(ExecutingAffix::new)
+                AffixBuilder.categorized(ExecutingAffix::new)
                         .definition(AffixType.ABILITY, DEFAULT_WEIGHT, DEFAULT_QUALITY)
                         .value(legendary, 0.15F, 0.25F)
                         .value(ancient, 0.15F, 0.25F)

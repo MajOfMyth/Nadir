@@ -1,0 +1,36 @@
+{
+    "type": "apotheosis:rarity",
+    "color": "#FFFFFF",
+    "material": "nadir:worthless_material",
+    "render_data": {
+        "beam_height": 0.0,
+        "beam_radius": 0.035,
+        "beam_texture": "apotheosis:textures/rarity/beam.png",
+        "glow_radius": 0.065,
+        "glow_texture": "apotheosis:textures/rarity/glow.png"
+    },
+    "rules": [
+        {
+            "type": "apotheosis:affix",
+            "affix_type": "stat"
+        }
+    ],
+    "sort_index": 200,
+    "weights": {
+        "haven": {
+            "weight": 50
+        },
+        "frontier": {
+            "weight": 0
+        },
+        "ascent": {
+            "weight": 0
+        },
+        "summit": {
+            "weight": 0
+        },
+        "pinnacle": {
+            "weight": 0
+        }
+    }
+}

@@ -1,0 +1,63 @@
+{
+    "type": "apotheosis:attribute",
+    "attribute": "minecraft:generic.gravity",
+    "categories": [
+        "apotheosis:chestplate"
+    ],
+    "definition": {
+        "affix_type": "stat",
+        "exclusive_set": [],
+        "weights": {
+            "quality": 0.1,
+            "weight": 25
+        }
+    },
+    "operation": "add_multiplied_total",
+    "values": {
+        "nadir:worthless": {
+            "min": -0.05,
+            "max": -0.1,
+            "step": -0.01
+        },
+        "nadir:legendary": {
+            "min": -0.2,
+            "max": -0.55,
+            "step": -0.01
+        },
+        "nadir:ancient": {
+            "min": -0.25,
+            "max": -0.6,
+            "step": -0.01
+        },
+        "nadir:forgotten": {
+            "min": -0.25,
+            "max": -0.65,
+            "step": -0.01
+        },
+        "nadir:primal": {
+            "min": -0.3,
+            "max": -0.7,
+            "step": -0.01
+        },
+        "nadir:stellar": {
+            "min": -0.3,
+            "max": -0.75,
+            "step": -0.01
+        },
+        "nadir:divine": {
+            "min": -0.35,
+            "max": -0.8,
+            "step": -0.01
+        },
+        "nadir:esoteric": {
+            "min": -0.35,
+            "max": -0.85,
+            "step": -0.01
+        },
+        "nadir:cataclysmic": {
+            "min": -0.4,
+            "max": -0.9,
+            "step": -0.01
+        }
+    }
+}

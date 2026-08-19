@@ -1,0 +1,4 @@
+// 1.21.1	2025-09-17T08:13:20.7461602	Loot Tables
+dce24bbecb44fe3561158fa3ad116c1802e7164e data/nadir/loot_table/blocks/ancient_reforging_table.json
+7d70f6592e4693025b75412669c2f0e53555f257 data/nadir/loot_table/blocks/cataclysmic_reforging_table.json
+b3b5eec15f27a727bd3ee2cbdf4828014edff447 data/nadir/loot_table/blocks/divine_reforging_table.json

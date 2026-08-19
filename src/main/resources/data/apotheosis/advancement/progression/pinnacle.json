@@ -1,0 +1,134 @@
+{
+    "parent": "apotheosis:progression/summit",
+    "criteria": {
+        "esoteric_chest": {
+            "conditions": {
+                "items": {
+                    "predicates": {
+                        "apotheosis:item_with_rarity": {
+                            "rarities": [
+                                "nadir:esoteric",
+                                "nadir:cataclysmic"
+                            ]
+                        }
+                    }
+                },
+                "slots": "chest"
+            },
+            "trigger": "apotheosis:equipped_item"
+        },
+        "esoteric_feet": {
+            "conditions": {
+                "items": {
+                    "predicates": {
+                        "apotheosis:item_with_rarity": {
+                            "rarities": [
+                                "nadir:esoteric",
+                                "nadir:cataclysmic"
+                            ]
+                        }
+                    }
+                },
+                "slots": "feet"
+            },
+            "trigger": "apotheosis:equipped_item"
+        },
+        "esoteric_hand": {
+            "conditions": {
+                "items": {
+                    "predicates": {
+                        "apotheosis:item_with_rarity": {
+                            "rarities": [
+                                "nadir:esoteric",
+                                "nadir:cataclysmic"
+                            ]
+                        }
+                    }
+                },
+                "slots": "hand"
+            },
+            "trigger": "apotheosis:equipped_item"
+        },
+        "esoteric_helm": {
+            "conditions": {
+                "items": {
+                    "predicates": {
+                        "apotheosis:item_with_rarity": {
+                            "rarities": [
+                                "nadir:esoteric",
+                                "nadir:cataclysmic"
+                            ]
+                        }
+                    }
+                },
+                "slots": "head"
+            },
+            "trigger": "apotheosis:equipped_item"
+        },
+        "esoteric_legs": {
+            "conditions": {
+                "items": {
+                    "predicates": {
+                        "apotheosis:item_with_rarity": {
+                            "rarities": [
+                                "nadir:esoteric",
+                                "nadir:cataclysmic"
+                            ]
+                        }
+                    }
+                },
+                "slots": "legs"
+            },
+            "trigger": "apotheosis:equipped_item"
+        },
+        "kill_ender_dragon": {
+            "conditions": {
+                "entity": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type": "minecraft:ender_dragon"
+                        }
+                    }
+                ]
+            },
+            "trigger": "minecraft:player_killed_entity"
+        }
+    },
+    "display": {
+        "background": "apotheosis:textures/advancements/bg/apoth.png",
+        "description": {
+            "translate": "advancements.apotheosis.progression.pinnacle.desc"
+        },
+        "frame": "challenge",
+        "icon": {
+            "count": 1,
+            "id": "minecraft:end_crystal"
+        },
+        "title": {
+            "translate": "advancements.apotheosis.progression.pinnacle.title"
+        }
+    },
+    "requirements": [
+        [
+            "esoteric_helm"
+        ],
+        [
+            "esoteric_chest"
+        ],
+        [
+            "esoteric_legs"
+        ],
+        [
+            "esoteric_feet"
+        ],
+        [
+            "esoteric_hand"
+        ],
+        [
+            "kill_ender_dragon"
+        ]
+    ],
+    "sends_telemetry_event": true
+}

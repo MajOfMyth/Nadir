@@ -1,0 +1,21 @@
+{
+    "type": "apotheosis:telepathic",
+    "definition": {
+        "affix_type": "basic_effect",
+        "exclusive_set": [],
+        "weights": {
+            "quality": 0.1,
+            "weight": 25
+        }
+    },
+    "rarities": [
+        "nadir:legendary",
+        "nadir:ancient",
+        "nadir:forgotten",
+        "nadir:primal",
+        "nadir:stellar",
+        "nadir:divine",
+        "nadir:esoteric",
+        "nadir:cataclysmic"
+    ]
+}

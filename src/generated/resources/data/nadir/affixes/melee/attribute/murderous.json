@@ -1,0 +1,51 @@
+{
+    "type": "apotheosis:attribute",
+    "attribute": "minecraft:generic.attack_damage",
+    "categories": [
+        "apotheosis:melee_weapon",
+        "apotheosis:trident"
+    ],
+    "definition": {
+        "affix_type": "stat",
+        "exclusive_set": [],
+        "weights": {
+            "quality": 0.1,
+            "weight": 25
+        }
+    },
+    "operation": "add_multiplied_base",
+    "values": {
+        "nadir:legendary": {
+            "min": 0.26,
+            "max": 0.6
+        },
+        "nadir:ancient": {
+            "min": 0.28,
+            "max": 0.65
+        },
+        "nadir:forgotten": {
+            "min": 0.3,
+            "max": 0.7
+        },
+        "nadir:primal": {
+            "min": 0.32,
+            "max": 0.75
+        },
+        "nadir:stellar": {
+            "min": 0.34,
+            "max": 0.8
+        },
+        "nadir:divine": {
+            "min": 0.36,
+            "max": 0.85
+        },
+        "nadir:esoteric": {
+            "min": 0.38,
+            "max": 0.9
+        },
+        "nadir:cataclysmic": {
+            "min": 0.4,
+            "max": 0.95
+        }
+    }
+}

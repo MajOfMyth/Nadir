@@ -1,0 +1,52 @@
+{
+    "type": "apotheosis:attribute",
+    "attribute": "apothic_attributes:arrow_velocity",
+    "categories": [
+        "apotheosis:bow",
+        "apotheosis:trident"
+    ],
+    "definition": {
+        "affix_type": "stat",
+        "exclusive_set": [],
+        "weights": {
+            "quality": 0.1,
+            "weight": 25
+        }
+    },
+    "operation": "add_multiplied_total",
+    "values": {
+        "nadir:worthless": 0.15,
+        "nadir:legendary": {
+            "min": 0.15,
+            "max": 0.4
+        },
+        "nadir:ancient": {
+            "min": 0.15,
+            "max": 0.25
+        },
+        "nadir:forgotten": {
+            "min": 0.15,
+            "max": 0.3
+        },
+        "nadir:primal": {
+            "min": 0.15,
+            "max": 0.35
+        },
+        "nadir:stellar": {
+            "min": 0.15,
+            "max": 0.4
+        },
+        "nadir:divine": {
+            "min": 0.15,
+            "max": 0.45
+        },
+        "nadir:esoteric": {
+            "min": 0.15,
+            "max": 0.5
+        },
+        "nadir:cataclysmic": {
+            "min": 0.15,
+            "max": 0.55
+        }
+    }
+}

@@ -1,0 +1,57 @@
+{
+    "type": "apotheosis:attribute",
+    "attribute": "apothic_attributes:life_steal",
+    "categories": [
+        "apotheosis:melee_weapon",
+        "apotheosis:trident"
+    ],
+    "definition": {
+        "affix_type": "stat",
+        "exclusive_set": [
+            "nadir:melee/attribute/berserking"
+        ],
+        "weights": {
+            "quality": 0.1,
+            "weight": 25
+        }
+    },
+    "operation": "add_value",
+    "values": {
+        "nadir:worthless": {
+            "min": 0.01,
+            "max": 0.04
+        },
+        "nadir:legendary": {
+            "min": 0.12,
+            "max": 0.18
+        },
+        "nadir:ancient": {
+            "min": 0.15,
+            "max": 0.2
+        },
+        "nadir:forgotten": {
+            "min": 0.18,
+            "max": 0.22
+        },
+        "nadir:primal": {
+            "min": 0.2,
+            "max": 0.24
+        },
+        "nadir:stellar": {
+            "min": 0.22,
+            "max": 0.26
+        },
+        "nadir:divine": {
+            "min": 0.24,
+            "max": 0.28
+        },
+        "nadir:esoteric": {
+            "min": 0.26,
+            "max": 0.3
+        },
+        "nadir:cataclysmic": {
+            "min": 0.28,
+            "max": 0.32
+        }
+    }
+}

@@ -1,0 +1,61 @@
+{
+    "type": "apotheosis:attribute",
+    "attribute": "apothic_attributes:cold_damage",
+    "categories": [
+        "apotheosis:melee_weapon",
+        "apotheosis:trident"
+    ],
+    "definition": {
+        "affix_type": "stat",
+        "exclusive_set": [
+            "nadir:melee/attribute/infernal"
+        ],
+        "weights": {
+            "quality": 0.1,
+            "weight": 25
+        }
+    },
+    "operation": "add_value",
+    "values": {
+        "nadir:legendary": {
+            "min": 6.0,
+            "max": 11.0,
+            "step": 0.25
+        },
+        "nadir:ancient": {
+            "min": 6.0,
+            "max": 12.0,
+            "step": 0.25
+        },
+        "nadir:forgotten": {
+            "min": 8.0,
+            "max": 13.0,
+            "step": 0.25
+        },
+        "nadir:primal": {
+            "min": 8.0,
+            "max": 14.0,
+            "step": 0.25
+        },
+        "nadir:stellar": {
+            "min": 10.0,
+            "max": 15.0,
+            "step": 0.25
+        },
+        "nadir:divine": {
+            "min": 10.0,
+            "max": 16.0,
+            "step": 0.25
+        },
+        "nadir:esoteric": {
+            "min": 12.0,
+            "max": 17.0,
+            "step": 0.25
+        },
+        "nadir:cataclysmic": {
+            "min": 12.0,
+            "max": 18.0,
+            "step": 0.25
+        }
+    }
+}

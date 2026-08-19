@@ -1,0 +1,50 @@
+{
+    "type": "apotheosis:attribute",
+    "attribute": "minecraft:generic.armor_toughness",
+    "categories": [
+        "apotheosis:shield"
+    ],
+    "definition": {
+        "affix_type": "stat",
+        "exclusive_set": [],
+        "weights": {
+            "quality": 0.1,
+            "weight": 25
+        }
+    },
+    "operation": "add_multiplied_base",
+    "values": {
+        "nadir:legendary": {
+            "min": 0.2,
+            "max": 0.3
+        },
+        "nadir:ancient": {
+            "min": 0.25,
+            "max": 0.4
+        },
+        "nadir:forgotten": {
+            "min": 0.25,
+            "max": 0.4
+        },
+        "nadir:primal": {
+            "min": 0.3,
+            "max": 0.5
+        },
+        "nadir:stellar": {
+            "min": 0.3,
+            "max": 0.5
+        },
+        "nadir:divine": {
+            "min": 0.35,
+            "max": 0.6
+        },
+        "nadir:esoteric": {
+            "min": 0.35,
+            "max": 0.6
+        },
+        "nadir:cataclysmic": {
+            "min": 0.4,
+            "max": 0.7
+        }
+    }
+}

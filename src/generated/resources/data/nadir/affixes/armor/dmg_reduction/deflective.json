@@ -1,0 +1,54 @@
+{
+    "type": "apotheosis:damage_reduction",
+    "categories": [
+        "apotheosis:helmet",
+        "apotheosis:chestplate"
+    ],
+    "damage_type": "projectile",
+    "definition": {
+        "affix_type": "basic_effect",
+        "exclusive_set": [],
+        "weights": {
+            "quality": 0.1,
+            "weight": 25
+        }
+    },
+    "values": {
+        "nadir:worthless": {
+            "min": 0.01,
+            "max": 0.05
+        },
+        "nadir:legendary": {
+            "min": 0.2,
+            "max": 0.4
+        },
+        "nadir:ancient": {
+            "min": 0.2,
+            "max": 0.45
+        },
+        "nadir:forgotten": {
+            "min": 0.2,
+            "max": 0.5
+        },
+        "nadir:primal": {
+            "min": 0.25,
+            "max": 0.55
+        },
+        "nadir:stellar": {
+            "min": 0.25,
+            "max": 0.6
+        },
+        "nadir:divine": {
+            "min": 0.25,
+            "max": 0.65
+        },
+        "nadir:esoteric": {
+            "min": 0.3,
+            "max": 0.7
+        },
+        "nadir:cataclysmic": {
+            "min": 0.3,
+            "max": 0.75
+        }
+    }
+}

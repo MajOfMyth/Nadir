@@ -1,0 +1,45 @@
+{
+    "type": "apotheosis:psychic",
+    "definition": {
+        "affix_type": "ability",
+        "exclusive_set": [],
+        "weights": {
+            "quality": 0.1,
+            "weight": 25
+        }
+    },
+    "values": {
+        "nadir:legendary": {
+            "min": 0.7,
+            "max": 1.3
+        },
+        "nadir:ancient": {
+            "min": 0.8,
+            "max": 1.4
+        },
+        "nadir:forgotten": {
+            "min": 0.9,
+            "max": 1.5
+        },
+        "nadir:primal": {
+            "min": 1.0,
+            "max": 1.6
+        },
+        "nadir:stellar": {
+            "min": 1.1,
+            "max": 1.7
+        },
+        "nadir:divine": {
+            "min": 1.2,
+            "max": 1.8
+        },
+        "nadir:esoteric": {
+            "min": 1.3,
+            "max": 1.9
+        },
+        "nadir:cataclysmic": {
+            "min": 1.4,
+            "max": 2.0
+        }
+    }
+}

@@ -1,0 +1,50 @@
+{
+    "type": "apotheosis:attribute",
+    "attribute": "minecraft:generic.oxygen_bonus",
+    "categories": [
+        "apotheosis:helmet"
+    ],
+    "definition": {
+        "affix_type": "stat",
+        "exclusive_set": [],
+        "weights": {
+            "quality": 0.1,
+            "weight": 25
+        }
+    },
+    "operation": "add_value",
+    "values": {
+        "nadir:legendary": {
+            "min": 1.25,
+            "max": 1.5
+        },
+        "nadir:ancient": {
+            "min": 1.5,
+            "max": 2.0
+        },
+        "nadir:forgotten": {
+            "min": 2.0,
+            "max": 2.5
+        },
+        "nadir:primal": {
+            "min": 2.5,
+            "max": 3.0
+        },
+        "nadir:stellar": {
+            "min": 3.0,
+            "max": 3.5
+        },
+        "nadir:divine": {
+            "min": 3.5,
+            "max": 4.0
+        },
+        "nadir:esoteric": {
+            "min": 4.0,
+            "max": 4.5
+        },
+        "nadir:cataclysmic": {
+            "min": 4.5,
+            "max": 5.0
+        }
+    }
+}

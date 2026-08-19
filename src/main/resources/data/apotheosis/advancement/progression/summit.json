@@ -1,0 +1,149 @@
+{
+    "parent": "apotheosis:progression/ascent",
+    "criteria": {
+        "kill_wither": {
+            "conditions": {
+                "entity": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type": "minecraft:wither"
+                        }
+                    }
+                ]
+            },
+            "trigger": "minecraft:player_killed_entity"
+        },
+        "primal_chest": {
+            "conditions": {
+                "items": {
+                    "predicates": {
+                        "apotheosis:item_with_rarity": {
+                            "rarities": [
+                                "nadir:primal",
+                                "nadir:stellar",
+                                "nadir:divine",
+                                "nadir:esoteric",
+                                "nadir:cataclysmic"
+                            ]
+                        }
+                    }
+                },
+                "slots": "chest"
+            },
+            "trigger": "apotheosis:equipped_item"
+        },
+        "primal_feet": {
+            "conditions": {
+                "items": {
+                    "predicates": {
+                        "apotheosis:item_with_rarity": {
+                            "rarities": [
+                                "nadir:primal",
+                                "nadir:stellar",
+                                "nadir:divine",
+                                "nadir:esoteric",
+                                "nadir:cataclysmic"
+                            ]
+                        }
+                    }
+                },
+                "slots": "feet"
+            },
+            "trigger": "apotheosis:equipped_item"
+        },
+        "primal_hand": {
+            "conditions": {
+                "items": {
+                    "predicates": {
+                        "apotheosis:item_with_rarity": {
+                            "rarities": [
+                                "nadir:primal",
+                                "nadir:stellar",
+                                "nadir:divine",
+                                "nadir:esoteric",
+                                "nadir:cataclysmic"
+                            ]
+                        }
+                    }
+                },
+                "slots": "hand"
+            },
+            "trigger": "apotheosis:equipped_item"
+        },
+        "primal_helm": {
+            "conditions": {
+                "items": {
+                    "predicates": {
+                        "apotheosis:item_with_rarity": {
+                            "rarities": [
+                                "nadir:primal",
+                                "nadir:stellar",
+                                "nadir:divine",
+                                "nadir:esoteric",
+                                "nadir:cataclysmic"
+                            ]
+                        }
+                    }
+                },
+                "slots": "head"
+            },
+            "trigger": "apotheosis:equipped_item"
+        },
+        "primal_legs": {
+            "conditions": {
+                "items": {
+                    "predicates": {
+                        "apotheosis:item_with_rarity": {
+                            "rarities": [
+                                "nadir:primal",
+                                "nadir:stellar",
+                                "nadir:divine",
+                                "nadir:esoteric",
+                                "nadir:cataclysmic"
+                            ]
+                        }
+                    }
+                },
+                "slots": "legs"
+            },
+            "trigger": "apotheosis:equipped_item"
+        }
+    },
+    "display": {
+        "background": "apotheosis:textures/advancements/bg/apoth.png",
+        "description": {
+            "translate": "advancements.apotheosis.progression.summit.desc"
+        },
+        "frame": "goal",
+        "icon": {
+            "count": 1,
+            "id": "minecraft:netherite_sword"
+        },
+        "title": {
+            "translate": "advancements.apotheosis.progression.summit.title"
+        }
+    },
+    "requirements": [
+        [
+            "primal_helm"
+        ],
+        [
+            "primal_chest"
+        ],
+        [
+            "primal_legs"
+        ],
+        [
+            "primal_feet"
+        ],
+        [
+            "primal_hand"
+        ],
+        [
+            "kill_wither"
+        ]
+    ],
+    "sends_telemetry_event": true
+}

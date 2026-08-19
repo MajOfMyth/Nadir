@@ -1,0 +1,552 @@
+{
+    "type": "apotheosis:invader",
+    "basic_data": {
+        "bonus_loot": [
+            "apotheosis:entity/boss_drops"
+        ],
+        "constraints": {
+            "dimensions": [
+                "minecraft:the_nether"
+            ]
+        },
+        "name": "use_name_generation",
+        "valid_gear_sets": {
+            "haven": [
+                "#haven_melee"
+            ],
+            "frontier": [
+                "#frontier_melee"
+            ],
+            "ascent": [
+                "#ascent_melee"
+            ],
+            "summit": [
+                "#summit_melee"
+            ],
+            "pinnacle": [
+                "#apotheosis_melee"
+            ]
+        },
+        "weights": {
+            "frontier": {
+                "quality": 2.0,
+                "weight": 25
+            },
+            "ascent": {
+                "quality": 2.0,
+                "weight": 25
+            },
+            "summit": {
+                "quality": 2.0,
+                "weight": 25
+            },
+            "pinnacle": {
+                "quality": 2.0,
+                "weight": 25
+            }
+        }
+    },
+    "entity": "minecraft:zoglin",
+    "size": {
+        "height": 2.0,
+        "width": 2.0
+    },
+    "stats": {
+        "nadir:legendary": {
+            "attribute_modifiers": [
+                {
+                    "attribute": "minecraft:generic.max_health",
+                    "operation": "add_value",
+                    "value": {
+                        "min": 140.0,
+                        "max": 210.0
+                    }
+                },
+                {
+                    "attribute": "minecraft:generic.movement_speed",
+                    "operation": "add_multiplied_base",
+                    "value": {
+                        "min": 0.3,
+                        "max": 0.65
+                    }
+                },
+                {
+                    "attribute": "minecraft:generic.attack_damage",
+                    "operation": "add_multiplied_base",
+                    "value": {
+                        "min": 1.1,
+                        "max": 1.45
+                    }
+                },
+                {
+                    "attribute": "minecraft:generic.knockback_resistance",
+                    "operation": "add_value",
+                    "value": 1.0
+                },
+                {
+                    "attribute": "minecraft:generic.armor",
+                    "operation": "add_value",
+                    "value": 15.0
+                },
+                {
+                    "attribute": "minecraft:generic.armor_toughness",
+                    "operation": "add_value",
+                    "value": 30.0
+                },
+                {
+                    "attribute": "minecraft:generic.scale",
+                    "operation": "add_multiplied_total",
+                    "value": {
+                        "min": -0.15,
+                        "max": 0.25
+                    }
+                }
+            ],
+            "effects": [
+                {
+                    "amplifier": 1.0,
+                    "effect": "minecraft:fire_resistance"
+                }
+            ],
+            "enchant_chance": 0.95,
+            "enchantment_levels": {
+                "primary": 45,
+                "secondary": 35
+            }
+        },
+        "nadir:ancient": {
+            "attribute_modifiers": [
+                {
+                    "attribute": "minecraft:generic.max_health",
+                    "operation": "add_value",
+                    "value": {
+                        "min": 170.0,
+                        "max": 240.0
+                    }
+                },
+                {
+                    "attribute": "minecraft:generic.movement_speed",
+                    "operation": "add_multiplied_base",
+                    "value": {
+                        "min": 0.3,
+                        "max": 0.65
+                    }
+                },
+                {
+                    "attribute": "minecraft:generic.attack_damage",
+                    "operation": "add_multiplied_base",
+                    "value": {
+                        "min": 1.5,
+                        "max": 2.0
+                    }
+                },
+                {
+                    "attribute": "minecraft:generic.knockback_resistance",
+                    "operation": "add_value",
+                    "value": 1.0
+                },
+                {
+                    "attribute": "minecraft:generic.armor",
+                    "operation": "add_value",
+                    "value": 20.0
+                },
+                {
+                    "attribute": "minecraft:generic.armor_toughness",
+                    "operation": "add_value",
+                    "value": 35.0
+                },
+                {
+                    "attribute": "minecraft:generic.scale",
+                    "operation": "add_multiplied_total",
+                    "value": {
+                        "min": -0.15,
+                        "max": 0.25
+                    }
+                }
+            ],
+            "effects": [
+                {
+                    "amplifier": 1.0,
+                    "effect": "minecraft:fire_resistance"
+                }
+            ],
+            "enchant_chance": 1.0,
+            "enchantment_levels": {
+                "primary": 55,
+                "secondary": 45
+            }
+        },
+        "nadir:forgotten": {
+            "attribute_modifiers": [
+                {
+                    "attribute": "minecraft:generic.max_health",
+                    "operation": "add_value",
+                    "value": {
+                        "min": 200.0,
+                        "max": 270.0
+                    }
+                },
+                {
+                    "attribute": "minecraft:generic.movement_speed",
+                    "operation": "add_multiplied_base",
+                    "value": {
+                        "min": 0.3,
+                        "max": 0.65
+                    }
+                },
+                {
+                    "attribute": "minecraft:generic.attack_damage",
+                    "operation": "add_multiplied_base",
+                    "value": {
+                        "min": 1.9,
+                        "max": 2.4
+                    }
+                },
+                {
+                    "attribute": "minecraft:generic.knockback_resistance",
+                    "operation": "add_value",
+                    "value": 1.0
+                },
+                {
+                    "attribute": "minecraft:generic.armor",
+                    "operation": "add_value",
+                    "value": 25.0
+                },
+                {
+                    "attribute": "minecraft:generic.armor_toughness",
+                    "operation": "add_value",
+                    "value": 40.0
+                },
+                {
+                    "attribute": "minecraft:generic.scale",
+                    "operation": "add_multiplied_total",
+                    "value": {
+                        "min": -0.15,
+                        "max": 0.25
+                    }
+                }
+            ],
+            "effects": [
+                {
+                    "amplifier": 1.0,
+                    "effect": "minecraft:fire_resistance"
+                }
+            ],
+            "enchant_chance": 1.0,
+            "enchantment_levels": {
+                "primary": 65,
+                "secondary": 55
+            }
+        },
+        "nadir:primal": {
+            "attribute_modifiers": [
+                {
+                    "attribute": "minecraft:generic.max_health",
+                    "operation": "add_value",
+                    "value": {
+                        "min": 230.0,
+                        "max": 300.0
+                    }
+                },
+                {
+                    "attribute": "minecraft:generic.movement_speed",
+                    "operation": "add_multiplied_base",
+                    "value": {
+                        "min": 0.3,
+                        "max": 0.65
+                    }
+                },
+                {
+                    "attribute": "minecraft:generic.attack_damage",
+                    "operation": "add_multiplied_base",
+                    "value": {
+                        "min": 2.5,
+                        "max": 3.0
+                    }
+                },
+                {
+                    "attribute": "minecraft:generic.knockback_resistance",
+                    "operation": "add_value",
+                    "value": 1.0
+                },
+                {
+                    "attribute": "minecraft:generic.armor",
+                    "operation": "add_value",
+                    "value": 30.0
+                },
+                {
+                    "attribute": "minecraft:generic.armor_toughness",
+                    "operation": "add_value",
+                    "value": 45.0
+                },
+                {
+                    "attribute": "minecraft:generic.scale",
+                    "operation": "add_multiplied_total",
+                    "value": {
+                        "min": -0.15,
+                        "max": 0.25
+                    }
+                }
+            ],
+            "effects": [
+                {
+                    "amplifier": 1.0,
+                    "effect": "minecraft:fire_resistance"
+                }
+            ],
+            "enchant_chance": 1.0,
+            "enchantment_levels": {
+                "primary": 75,
+                "secondary": 65
+            }
+        },
+        "nadir:stellar": {
+            "attribute_modifiers": [
+                {
+                    "attribute": "minecraft:generic.max_health",
+                    "operation": "add_value",
+                    "value": {
+                        "min": 260.0,
+                        "max": 330.0
+                    }
+                },
+                {
+                    "attribute": "minecraft:generic.movement_speed",
+                    "operation": "add_multiplied_base",
+                    "value": {
+                        "min": 0.3,
+                        "max": 0.65
+                    }
+                },
+                {
+                    "attribute": "minecraft:generic.attack_damage",
+                    "operation": "add_multiplied_base",
+                    "value": {
+                        "min": 3.0,
+                        "max": 3.5
+                    }
+                },
+                {
+                    "attribute": "minecraft:generic.knockback_resistance",
+                    "operation": "add_value",
+                    "value": 1.0
+                },
+                {
+                    "attribute": "minecraft:generic.armor",
+                    "operation": "add_value",
+                    "value": 35.0
+                },
+                {
+                    "attribute": "minecraft:generic.armor_toughness",
+                    "operation": "add_value",
+                    "value": 50.0
+                },
+                {
+                    "attribute": "minecraft:generic.scale",
+                    "operation": "add_multiplied_total",
+                    "value": {
+                        "min": -0.15,
+                        "max": 0.25
+                    }
+                }
+            ],
+            "effects": [
+                {
+                    "amplifier": 1.0,
+                    "effect": "minecraft:fire_resistance"
+                }
+            ],
+            "enchant_chance": 1.0,
+            "enchantment_levels": {
+                "primary": 85,
+                "secondary": 75
+            }
+        },
+        "nadir:divine": {
+            "attribute_modifiers": [
+                {
+                    "attribute": "minecraft:generic.max_health",
+                    "operation": "add_value",
+                    "value": {
+                        "min": 290.0,
+                        "max": 360.0
+                    }
+                },
+                {
+                    "attribute": "minecraft:generic.movement_speed",
+                    "operation": "add_multiplied_base",
+                    "value": {
+                        "min": 0.3,
+                        "max": 0.65
+                    }
+                },
+                {
+                    "attribute": "minecraft:generic.attack_damage",
+                    "operation": "add_multiplied_base",
+                    "value": {
+                        "min": 3.5,
+                        "max": 4.0
+                    }
+                },
+                {
+                    "attribute": "minecraft:generic.knockback_resistance",
+                    "operation": "add_value",
+                    "value": 1.0
+                },
+                {
+                    "attribute": "minecraft:generic.armor",
+                    "operation": "add_value",
+                    "value": 40.0
+                },
+                {
+                    "attribute": "minecraft:generic.armor_toughness",
+                    "operation": "add_value",
+                    "value": 55.0
+                },
+                {
+                    "attribute": "minecraft:generic.scale",
+                    "operation": "add_multiplied_total",
+                    "value": {
+                        "min": -0.15,
+                        "max": 0.25
+                    }
+                }
+            ],
+            "effects": [
+                {
+                    "amplifier": 1.0,
+                    "effect": "minecraft:fire_resistance"
+                }
+            ],
+            "enchant_chance": 1.0,
+            "enchantment_levels": {
+                "primary": 95,
+                "secondary": 85
+            }
+        },
+        "nadir:esoteric": {
+            "attribute_modifiers": [
+                {
+                    "attribute": "minecraft:generic.max_health",
+                    "operation": "add_value",
+                    "value": {
+                        "min": 320.0,
+                        "max": 390.0
+                    }
+                },
+                {
+                    "attribute": "minecraft:generic.movement_speed",
+                    "operation": "add_multiplied_base",
+                    "value": {
+                        "min": 0.3,
+                        "max": 0.65
+                    }
+                },
+                {
+                    "attribute": "minecraft:generic.attack_damage",
+                    "operation": "add_multiplied_base",
+                    "value": {
+                        "min": 4.0,
+                        "max": 4.5
+                    }
+                },
+                {
+                    "attribute": "minecraft:generic.knockback_resistance",
+                    "operation": "add_value",
+                    "value": 1.0
+                },
+                {
+                    "attribute": "minecraft:generic.armor",
+                    "operation": "add_value",
+                    "value": 45.0
+                },
+                {
+                    "attribute": "minecraft:generic.armor_toughness",
+                    "operation": "add_value",
+                    "value": 60.0
+                },
+                {
+                    "attribute": "minecraft:generic.scale",
+                    "operation": "add_multiplied_total",
+                    "value": {
+                        "min": -0.15,
+                        "max": 0.25
+                    }
+                }
+            ],
+            "effects": [
+                {
+                    "amplifier": 1.0,
+                    "effect": "minecraft:fire_resistance"
+                }
+            ],
+            "enchant_chance": 1.0,
+            "enchantment_levels": {
+                "primary": 110,
+                "secondary": 100
+            }
+        },
+        "nadir:cataclysmic": {
+            "attribute_modifiers": [
+                {
+                    "attribute": "minecraft:generic.max_health",
+                    "operation": "add_value",
+                    "value": {
+                        "min": 350.0,
+                        "max": 420.0
+                    }
+                },
+                {
+                    "attribute": "minecraft:generic.movement_speed",
+                    "operation": "add_multiplied_base",
+                    "value": {
+                        "min": 0.3,
+                        "max": 0.65
+                    }
+                },
+                {
+                    "attribute": "minecraft:generic.attack_damage",
+                    "operation": "add_multiplied_base",
+                    "value": {
+                        "min": 4.5,
+                        "max": 5.0
+                    }
+                },
+                {
+                    "attribute": "minecraft:generic.knockback_resistance",
+                    "operation": "add_value",
+                    "value": 1.0
+                },
+                {
+                    "attribute": "minecraft:generic.armor",
+                    "operation": "add_value",
+                    "value": 50.0
+                },
+                {
+                    "attribute": "minecraft:generic.armor_toughness",
+                    "operation": "add_value",
+                    "value": 65.0
+                },
+                {
+                    "attribute": "minecraft:generic.scale",
+                    "operation": "add_multiplied_total",
+                    "value": {
+                        "min": -0.15,
+                        "max": 0.25
+                    }
+                }
+            ],
+            "effects": [
+                {
+                    "amplifier": 1.0,
+                    "effect": "minecraft:fire_resistance"
+                }
+            ],
+            "enchant_chance": 1.0,
+            "enchantment_levels": {
+                "primary": 120,
+                "secondary": 110
+            }
+        }
+    }
+}

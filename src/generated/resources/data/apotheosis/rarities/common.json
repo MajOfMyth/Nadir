@@ -1,0 +1,45 @@
+{
+    "type": "apotheosis:rarity",
+    "color": "#808080",
+    "material": "apotheosis:common_material",
+    "render_data": {
+        "beam_height": 0.0,
+        "beam_radius": 0.035,
+        "beam_texture": "apotheosis:textures/rarity/beam.png",
+        "glow_radius": 0.065,
+        "glow_texture": "apotheosis:textures/rarity/glow.png"
+    },
+    "rules": [
+        {
+            "type": "apotheosis:affix",
+            "affix_type": "stat"
+        },
+        {
+            "type": "apotheosis:chanced",
+            "chance": 0.25,
+            "rule": {
+                "type": "apotheosis:affix",
+                "affix_type": "stat"
+            }
+        }
+    ],
+    "sort_index": 300,
+    "weights": {
+        "haven": {
+            "quality": 1.0,
+            "weight": 30
+        },
+        "frontier": {
+            "weight": 0
+        },
+        "ascent": {
+            "weight": 0
+        },
+        "summit": {
+            "weight": 0
+        },
+        "pinnacle": {
+            "weight": 0
+        }
+    }
+}

@@ -1,0 +1,166 @@
+{
+    "parent": "apotheosis:progression/frontier",
+    "criteria": {
+        "kill_apothic_invader": {
+            "conditions": {
+                "entity": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type_specific": {
+                                "type": "apotheosis:is_invader"
+                            }
+                        }
+                    }
+                ]
+            },
+            "trigger": "minecraft:player_killed_entity"
+        },
+        "legendary_chest": {
+            "conditions": {
+                "items": {
+                    "predicates": {
+                        "apotheosis:item_with_rarity": {
+                            "rarities": [
+                                "nadir:legendary",
+                                "nadir:ancient",
+                                "nadir:forgotten",
+                                "nadir:primal",
+                                "nadir:stellar",
+                                "nadir:divine",
+                                "nadir:esoteric",
+                                "nadir:cataclysmic"
+                            ]
+                        }
+                    }
+                },
+                "slots": "chest"
+            },
+            "trigger": "apotheosis:equipped_item"
+        },
+        "legendary_feet": {
+            "conditions": {
+                "items": {
+                    "predicates": {
+                        "apotheosis:item_with_rarity": {
+                            "rarities": [
+                                "nadir:legendary",
+                                "nadir:ancient",
+                                "nadir:forgotten",
+                                "nadir:primal",
+                                "nadir:stellar",
+                                "nadir:divine",
+                                "nadir:esoteric",
+                                "nadir:cataclysmic"
+                            ]
+                        }
+                    }
+                },
+                "slots": "feet"
+            },
+            "trigger": "apotheosis:equipped_item"
+        },
+        "legendary_hand": {
+            "conditions": {
+                "items": {
+                    "predicates": {
+                        "apotheosis:item_with_rarity": {
+                            "rarities": [
+                                "nadir:legendary",
+                                "nadir:ancient",
+                                "nadir:forgotten",
+                                "nadir:primal",
+                                "nadir:stellar",
+                                "nadir:divine",
+                                "nadir:esoteric",
+                                "nadir:cataclysmic"
+                            ]
+                        }
+                    }
+                },
+                "slots": "hand"
+            },
+            "trigger": "apotheosis:equipped_item"
+        },
+        "legendary_helm": {
+            "conditions": {
+                "items": {
+                    "predicates": {
+                        "apotheosis:item_with_rarity": {
+                            "rarities": [
+                                "nadir:legendary",
+                                "nadir:ancient",
+                                "nadir:forgotten",
+                                "nadir:primal",
+                                "nadir:stellar",
+                                "nadir:divine",
+                                "nadir:esoteric",
+                                "nadir:cataclysmic"
+                            ]
+                        }
+                    }
+                },
+                "slots": "head"
+            },
+            "trigger": "apotheosis:equipped_item"
+        },
+        "legendary_legs": {
+            "conditions": {
+                "items": {
+                    "predicates": {
+                        "apotheosis:item_with_rarity": {
+                            "rarities": [
+                                "nadir:legendary",
+                                "nadir:ancient",
+                                "nadir:forgotten",
+                                "nadir:primal",
+                                "nadir:stellar",
+                                "nadir:divine",
+                                "nadir:esoteric",
+                                "nadir:cataclysmic"
+                            ]
+                        }
+                    }
+                },
+                "slots": "legs"
+            },
+            "trigger": "apotheosis:equipped_item"
+        }
+    },
+    "display": {
+        "background": "apotheosis:textures/advancements/bg/apoth.png",
+        "description": {
+            "translate": "advancements.apotheosis.progression.ascent.desc"
+        },
+        "frame": "goal",
+        "icon": {
+            "count": 1,
+            "id": "minecraft:blaze_powder"
+        },
+        "title": {
+            "translate": "advancements.apotheosis.progression.ascent.title"
+        }
+    },
+    "requirements": [
+        [
+            "legendary_helm"
+        ],
+        [
+            "legendary_chest"
+        ],
+        [
+            "legendary_legs"
+        ],
+        [
+            "legendary_feet"
+        ],
+        [
+            "legendary_hand"
+        ],
+        [
+            "kill_apothic_invader"
+        ]
+    ],
+    "sends_telemetry_event": true
+}

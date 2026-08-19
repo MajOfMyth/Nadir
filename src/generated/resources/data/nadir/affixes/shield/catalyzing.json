@@ -1,0 +1,53 @@
+{
+    "type": "apotheosis:catalyzing",
+    "definition": {
+        "affix_type": "ability",
+        "exclusive_set": [],
+        "weights": {
+            "quality": 0.1,
+            "weight": 25
+        }
+    },
+    "values": {
+        "nadir:legendary": {
+            "min": 400.0,
+            "max": 700.0,
+            "step": 20.0
+        },
+        "nadir:ancient": {
+            "min": 500.0,
+            "max": 800.0,
+            "step": 20.0
+        },
+        "nadir:forgotten": {
+            "min": 600.0,
+            "max": 900.0,
+            "step": 20.0
+        },
+        "nadir:primal": {
+            "min": 700.0,
+            "max": 1000.0,
+            "step": 20.0
+        },
+        "nadir:stellar": {
+            "min": 800.0,
+            "max": 1100.0,
+            "step": 20.0
+        },
+        "nadir:divine": {
+            "min": 900.0,
+            "max": 1200.0,
+            "step": 20.0
+        },
+        "nadir:esoteric": {
+            "min": 1000.0,
+            "max": 1300.0,
+            "step": 20.0
+        },
+        "nadir:cataclysmic": {
+            "min": 1100.0,
+            "max": 1400.0,
+            "step": 20.0
+        }
+    }
+}

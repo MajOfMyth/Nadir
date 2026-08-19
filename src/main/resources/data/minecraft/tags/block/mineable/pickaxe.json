@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "nadir:ancient_reforging_table"
+    },
+    {
+      "id": "nadir:divine_reforging_table"
+    },
+    {
+      "id": "nadir:cataclysmic_reforging_table"
+    }
+  ]
+}

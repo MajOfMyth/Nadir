@@ -1,0 +1,97 @@
+{
+    "type": "apotheosis:mob_effect",
+    "definition": {
+        "affix_type": "basic_effect",
+        "exclusive_set": [
+            "nadir:ranged/mob_effect/blighted"
+        ],
+        "weights": {
+            "pinnacle": {
+                "quality": 0.75,
+                "weight": 20
+            }
+        }
+    },
+    "mob_effect": "minecraft:wither",
+    "stack_on_reapply": true,
+    "stacking_limit": 4,
+    "target": "arrow_target",
+    "types": [
+        "apotheosis:bow",
+        "apotheosis:trident"
+    ],
+    "values": {
+        "nadir:legendary": {
+            "duration": {
+                "min": 100.0,
+                "max": 200.0,
+                "step": 20.0
+            },
+            "amplifier": 1.0,
+            "cooldown": 40
+        },
+        "nadir:ancient": {
+            "duration": {
+                "min": 100.0,
+                "max": 200.0,
+                "step": 20.0
+            },
+            "amplifier": 1.0,
+            "cooldown": 40
+        },
+        "nadir:forgotten": {
+            "duration": {
+                "min": 100.0,
+                "max": 200.0,
+                "step": 20.0
+            },
+            "amplifier": 1.0,
+            "cooldown": 40
+        },
+        "nadir:primal": {
+            "duration": {
+                "min": 160.0,
+                "max": 260.0,
+                "step": 20.0
+            },
+            "amplifier": 1.0,
+            "cooldown": 40
+        },
+        "nadir:stellar": {
+            "duration": {
+                "min": 160.0,
+                "max": 260.0,
+                "step": 20.0
+            },
+            "amplifier": 2.0,
+            "cooldown": 40
+        },
+        "nadir:divine": {
+            "duration": {
+                "min": 160.0,
+                "max": 260.0,
+                "step": 20.0
+            },
+            "amplifier": 2.0,
+            "cooldown": 40
+        },
+        "nadir:esoteric": {
+            "duration": {
+                "min": 160.0,
+                "max": 260.0,
+                "step": 20.0
+            },
+            "amplifier": 2.0,
+            "cooldown": 40
+        },
+        "nadir:cataclysmic": {
+            "duration": {
+                "min": 200.0,
+                "max": 300.0,
+                "step": 20.0
+            },
+            "amplifier": 2.0,
+            "cooldown": 20
+        }
+    }
+}

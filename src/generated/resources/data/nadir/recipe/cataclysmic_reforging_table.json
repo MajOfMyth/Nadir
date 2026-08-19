@@ -1,0 +1,25 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "group": "nadir",
+    "key": {
+        "C": {
+            "item": "nadir:cataclysmic_material"
+        },
+        "D": {
+            "item": "nadir:divine_reforging_table"
+        },
+        "E": {
+            "item": "nadir:esoteric_material"
+        }
+    },
+    "pattern": [
+        "ECE",
+        "EDE",
+        "EEE"
+    ],
+    "result": {
+        "count": 1,
+        "id": "nadir:cataclysmic_reforging_table"
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "type": "apotheosis:salvaging",
+    "input": {
+        "type": "apotheosis:affix",
+        "rarity": "nadir:divine"
+    },
+    "outputs": [
+        {
+            "max_count": 4,
+            "min_count": 1,
+            "stack": {
+                "count": 1,
+                "id": "nadir:divine_material"
+            }
+        }
+    ]
+}

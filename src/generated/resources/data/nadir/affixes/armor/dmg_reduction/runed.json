@@ -1,0 +1,58 @@
+{
+    "type": "apotheosis:damage_reduction",
+    "categories": [
+        "apotheosis:helmet",
+        "apotheosis:chestplate",
+        "apotheosis:leggings",
+        "apotheosis:boots"
+    ],
+    "damage_type": "magic",
+    "definition": {
+        "affix_type": "ability",
+        "exclusive_set": [
+            "nadir:armor/dmg_reduction/blockading"
+        ],
+        "weights": {
+            "quality": 0.1,
+            "weight": 25
+        }
+    },
+    "values": {
+        "nadir:worthless": {
+            "min": 0.01,
+            "max": 0.02
+        },
+        "nadir:legendary": {
+            "min": 0.1,
+            "max": 0.15
+        },
+        "nadir:ancient": {
+            "min": 0.1,
+            "max": 0.2
+        },
+        "nadir:forgotten": {
+            "min": 0.1,
+            "max": 0.2
+        },
+        "nadir:primal": {
+            "min": 0.15,
+            "max": 0.25
+        },
+        "nadir:stellar": {
+            "min": 0.15,
+            "max": 0.25
+        },
+        "nadir:divine": {
+            "min": 0.15,
+            "max": 0.3
+        },
+        "nadir:esoteric": {
+            "min": 0.2,
+            "max": 0.3
+        },
+        "nadir:cataclysmic": {
+            "min": 0.2,
+            "max": 0.3
+        }
+    }
+}

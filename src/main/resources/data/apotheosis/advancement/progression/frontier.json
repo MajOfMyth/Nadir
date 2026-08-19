@@ -1,0 +1,161 @@
+{
+    "parent": "apotheosis:progression/haven",
+    "criteria": {
+        "rare_chest": {
+            "conditions": {
+                "items": {
+                    "predicates": {
+                        "apotheosis:item_with_rarity": {
+                            "rarities": [
+                                "apotheosis:rare",
+                                "apotheosis:epic",
+                                "apotheosis:mythic",
+                                "nadir:legendary",
+                                "nadir:ancient",
+                                "nadir:forgotten",
+                                "nadir:primal",
+                                "nadir:stellar",
+                                "nadir:divine",
+                                "nadir:esoteric",
+                                "nadir:cataclysmic"
+                            ]
+                        }
+                    }
+                },
+                "slots": "chest"
+            },
+            "trigger": "apotheosis:equipped_item"
+        },
+        "rare_feet": {
+            "conditions": {
+                "items": {
+                    "predicates": {
+                        "apotheosis:item_with_rarity": {
+                            "rarities": [
+                                "apotheosis:rare",
+                                "apotheosis:epic",
+                                "apotheosis:mythic",
+                                "nadir:legendary",
+                                "nadir:ancient",
+                                "nadir:forgotten",
+                                "nadir:primal",
+                                "nadir:stellar",
+                                "nadir:divine",
+                                "nadir:esoteric",
+                                "nadir:cataclysmic"
+                            ]
+                        }
+                    }
+                },
+                "slots": "feet"
+            },
+            "trigger": "apotheosis:equipped_item"
+        },
+        "rare_hand": {
+            "conditions": {
+                "items": {
+                    "predicates": {
+                        "apotheosis:item_with_rarity": {
+                            "rarities": [
+                                "apotheosis:rare",
+                                "apotheosis:epic",
+                                "apotheosis:mythic",
+                                "nadir:legendary",
+                                "nadir:ancient",
+                                "nadir:forgotten",
+                                "nadir:primal",
+                                "nadir:stellar",
+                                "nadir:divine",
+                                "nadir:esoteric",
+                                "nadir:cataclysmic"
+                            ]
+                        }
+                    }
+                },
+                "slots": "hand"
+            },
+            "trigger": "apotheosis:equipped_item"
+        },
+        "rare_helm": {
+            "conditions": {
+                "items": {
+                    "predicates": {
+                        "apotheosis:item_with_rarity": {
+                            "rarities": [
+                                "apotheosis:rare",
+                                "apotheosis:epic",
+                                "apotheosis:mythic",
+                                "nadir:legendary",
+                                "nadir:ancient",
+                                "nadir:forgotten",
+                                "nadir:primal",
+                                "nadir:stellar",
+                                "nadir:divine",
+                                "nadir:esoteric",
+                                "nadir:cataclysmic"
+                            ]
+                        }
+                    }
+                },
+                "slots": "head"
+            },
+            "trigger": "apotheosis:equipped_item"
+        },
+        "rare_legs": {
+            "conditions": {
+                "items": {
+                    "predicates": {
+                        "apotheosis:item_with_rarity": {
+                            "rarities": [
+                                "apotheosis:rare",
+                                "apotheosis:epic",
+                                "apotheosis:mythic",
+                                "nadir:legendary",
+                                "nadir:ancient",
+                                "nadir:forgotten",
+                                "nadir:primal",
+                                "nadir:stellar",
+                                "nadir:divine",
+                                "nadir:esoteric",
+                                "nadir:cataclysmic"
+                            ]
+                        }
+                    }
+                },
+                "slots": "legs"
+            },
+            "trigger": "apotheosis:equipped_item"
+        }
+    },
+    "display": {
+        "background": "apotheosis:textures/advancements/bg/apoth.png",
+        "description": {
+            "translate": "advancements.apotheosis.progression.frontier.desc"
+        },
+        "icon": {
+            "count": 1,
+            "id": "minecraft:iron_sword"
+        },
+        "title": {
+            "translate": "advancements.apotheosis.progression.frontier.title"
+        }
+    },
+    "requirements": [
+        [
+            "rare_helm"
+        ],
+        [
+            "rare_chest"
+        ],
+        [
+            "rare_legs"
+        ],
+        [
+            "rare_feet"
+        ],
+        [
+            "rare_hand"
+        ]
+    ],
+    "sends_telemetry_event": true
+}

@@ -1,0 +1,53 @@
+{
+    "type": "apotheosis:enlightened",
+    "definition": {
+        "affix_type": "ability",
+        "exclusive_set": [],
+        "weights": {
+            "quality": 0.1,
+            "weight": 25
+        }
+    },
+    "values": {
+        "nadir:legendary": {
+            "min": 5.0,
+            "max": 0.0,
+            "step": -1.0
+        },
+        "nadir:ancient": {
+            "min": 5.0,
+            "max": 0.0,
+            "step": -1.0
+        },
+        "nadir:forgotten": {
+            "min": 4.0,
+            "max": 0.0,
+            "step": -1.0
+        },
+        "nadir:primal": {
+            "min": 4.0,
+            "max": 0.0,
+            "step": -1.0
+        },
+        "nadir:stellar": {
+            "min": 4.0,
+            "max": 0.0,
+            "step": -1.0
+        },
+        "nadir:divine": {
+            "min": 3.0,
+            "max": 0.0,
+            "step": -1.0
+        },
+        "nadir:esoteric": {
+            "min": 3.0,
+            "max": 0.0,
+            "step": -1.0
+        },
+        "nadir:cataclysmic": {
+            "min": 3.0,
+            "max": 0.0,
+            "step": -1.0
+        }
+    }
+}

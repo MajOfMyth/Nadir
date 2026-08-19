@@ -1,0 +1,56 @@
+{
+    "type": "apotheosis:attribute",
+    "attribute": "apothic_attributes:armor_shred",
+    "categories": [
+        "apotheosis:melee_weapon",
+        "apotheosis:trident",
+        "apotheosis:bow"
+    ],
+    "definition": {
+        "affix_type": "stat",
+        "exclusive_set": [],
+        "weights": {
+            "quality": 0.1,
+            "weight": 25
+        }
+    },
+    "operation": "add_value",
+    "values": {
+        "nadir:worthless": {
+            "min": 0.05,
+            "max": 0.15
+        },
+        "nadir:legendary": {
+            "min": 0.35,
+            "max": 0.45
+        },
+        "nadir:ancient": {
+            "min": 0.35,
+            "max": 0.5
+        },
+        "nadir:forgotten": {
+            "min": 0.4,
+            "max": 0.5
+        },
+        "nadir:primal": {
+            "min": 0.4,
+            "max": 0.55
+        },
+        "nadir:stellar": {
+            "min": 0.45,
+            "max": 0.55
+        },
+        "nadir:divine": {
+            "min": 0.45,
+            "max": 0.6
+        },
+        "nadir:esoteric": {
+            "min": 0.5,
+            "max": 0.6
+        },
+        "nadir:cataclysmic": {
+            "min": 0.5,
+            "max": 0.65
+        }
+    }
+}

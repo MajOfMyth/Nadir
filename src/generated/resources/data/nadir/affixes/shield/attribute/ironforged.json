@@ -1,0 +1,54 @@
+{
+    "type": "apotheosis:attribute",
+    "attribute": "minecraft:generic.armor",
+    "categories": [
+        "apotheosis:shield"
+    ],
+    "definition": {
+        "affix_type": "stat",
+        "exclusive_set": [],
+        "weights": {
+            "quality": 0.1,
+            "weight": 25
+        }
+    },
+    "operation": "add_multiplied_base",
+    "values": {
+        "nadir:worthless": {
+            "min": 0.05,
+            "max": 0.1
+        },
+        "nadir:legendary": {
+            "min": 0.2,
+            "max": 0.35
+        },
+        "nadir:ancient": {
+            "min": 0.25,
+            "max": 0.35
+        },
+        "nadir:forgotten": {
+            "min": 0.25,
+            "max": 0.4
+        },
+        "nadir:primal": {
+            "min": 0.3,
+            "max": 0.45
+        },
+        "nadir:stellar": {
+            "min": 0.3,
+            "max": 0.45
+        },
+        "nadir:divine": {
+            "min": 0.35,
+            "max": 0.5
+        },
+        "nadir:esoteric": {
+            "min": 0.35,
+            "max": 0.55
+        },
+        "nadir:cataclysmic": {
+            "min": 0.4,
+            "max": 0.6
+        }
+    }
+}

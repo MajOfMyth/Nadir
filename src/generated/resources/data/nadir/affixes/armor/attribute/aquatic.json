@@ -1,0 +1,54 @@
+{
+    "type": "apotheosis:attribute",
+    "attribute": "neoforge:swim_speed",
+    "categories": [
+        "apotheosis:boots"
+    ],
+    "definition": {
+        "affix_type": "stat",
+        "exclusive_set": [],
+        "weights": {
+            "quality": 0.1,
+            "weight": 25
+        }
+    },
+    "operation": "add_multiplied_total",
+    "values": {
+        "nadir:worthless": {
+            "min": 0.1,
+            "max": 0.2
+        },
+        "nadir:legendary": {
+            "min": 0.4,
+            "max": 0.7
+        },
+        "nadir:ancient": {
+            "min": 0.4,
+            "max": 0.7
+        },
+        "nadir:forgotten": {
+            "min": 0.5,
+            "max": 0.8
+        },
+        "nadir:primal": {
+            "min": 0.5,
+            "max": 0.8
+        },
+        "nadir:stellar": {
+            "min": 0.6,
+            "max": 0.9
+        },
+        "nadir:divine": {
+            "min": 0.6,
+            "max": 0.9
+        },
+        "nadir:esoteric": {
+            "min": 0.6,
+            "max": 0.9
+        },
+        "nadir:cataclysmic": {
+            "min": 0.7,
+            "max": 1.0
+        }
+    }
+}

@@ -1,0 +1,54 @@
+{
+    "type": "apotheosis:attribute",
+    "attribute": "minecraft:player.submerged_mining_speed",
+    "categories": [
+        "apotheosis:breaker"
+    ],
+    "definition": {
+        "affix_type": "stat",
+        "exclusive_set": [],
+        "weights": {
+            "quality": 0.1,
+            "weight": 25
+        }
+    },
+    "operation": "add_value",
+    "values": {
+        "nadir:worthless": {
+            "min": 0.05,
+            "max": 0.15
+        },
+        "nadir:legendary": {
+            "min": 0.6,
+            "max": 1.0
+        },
+        "nadir:ancient": {
+            "min": 0.7,
+            "max": 1.1
+        },
+        "nadir:forgotten": {
+            "min": 0.8,
+            "max": 1.2
+        },
+        "nadir:primal": {
+            "min": 0.9,
+            "max": 1.3
+        },
+        "nadir:stellar": {
+            "min": 1.0,
+            "max": 1.4
+        },
+        "nadir:divine": {
+            "min": 1.1,
+            "max": 1.5
+        },
+        "nadir:esoteric": {
+            "min": 1.2,
+            "max": 1.6
+        },
+        "nadir:cataclysmic": {
+            "min": 1.3,
+            "max": 1.7
+        }
+    }
+}

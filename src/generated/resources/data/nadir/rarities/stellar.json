@@ -1,0 +1,103 @@
+{
+    "type": "apotheosis:rarity",
+    "color": "stellar",
+    "material": "nadir:stellar_material",
+    "render_data": {
+        "beam_height": 0.0,
+        "beam_radius": 0.035,
+        "beam_texture": "apotheosis:textures/rarity/beam.png",
+        "glow_radius": 0.065,
+        "glow_texture": "apotheosis:textures/rarity/glow.png"
+    },
+    "rules": [
+        {
+            "type": "apotheosis:affix",
+            "affix_type": "stat"
+        },
+        {
+            "type": "apotheosis:affix",
+            "affix_type": "stat"
+        },
+        {
+            "type": "apotheosis:affix",
+            "affix_type": "stat"
+        },
+        {
+            "type": "apotheosis:affix",
+            "affix_type": "stat"
+        },
+        {
+            "type": "apotheosis:affix",
+            "affix_type": "stat"
+        },
+        {
+            "type": "apotheosis:affix",
+            "affix_type": "basic_effect"
+        },
+        {
+            "type": "apotheosis:affix",
+            "affix_type": "basic_effect"
+        },
+        {
+            "type": "apotheosis:affix",
+            "affix_type": "basic_effect"
+        },
+        {
+            "type": "apotheosis:affix",
+            "affix_type": "ability"
+        },
+        {
+            "type": "apotheosis:affix",
+            "affix_type": "ability"
+        },
+        {
+            "type": "apotheosis:select",
+            "chance": 0.95,
+            "if_false": {
+                "type": "apotheosis:socket",
+                "min": 5,
+                "max": 5
+            },
+            "if_true": {
+                "type": "apotheosis:socket",
+                "min": 2,
+                "max": 4
+            }
+        },
+        {
+            "type": "apotheosis:select",
+            "chance": 0.75,
+            "if_false": {
+                "type": "apotheosis:component",
+                "components": {
+                    "!apotheosis:durability_bonus": {},
+                    "minecraft:unbreakable": {}
+                }
+            },
+            "if_true": {
+                "type": "apotheosis:durability",
+                "min": 0.66,
+                "max": 0.96
+            }
+        }
+    ],
+    "sort_index": 1200,
+    "weights": {
+        "haven": {
+            "weight": 0
+        },
+        "frontier": {
+            "weight": 0
+        },
+        "ascent": {
+            "weight": 0
+        },
+        "summit": {
+            "quality": 1.0,
+            "weight": 30
+        },
+        "pinnacle": {
+            "weight": 50
+        }
+    }
+}

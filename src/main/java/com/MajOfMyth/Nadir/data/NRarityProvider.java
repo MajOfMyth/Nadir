@@ -52,7 +52,7 @@ public class NRarityProvider extends DynamicRegistryProvider<LootRarity> {
                 .renderData(c -> c
                         .beamHeight(0)));
 
-        this.addRarity("common", TextColor.fromRgb(0x808080), Apoth.Items.COMMON_MATERIAL, b -> b
+        this.addRarity("common", TextColor.fromRgb(0x808080), Apoth.Items.MYSTERIOUS_SCRAP_METAL, b -> b
                 .sortIndex(300)
                 .weights(TieredWeights.builder()
                         .with(WorldTier.HAVEN, 30, 1)
@@ -65,7 +65,7 @@ public class NRarityProvider extends DynamicRegistryProvider<LootRarity> {
                 .renderData(c -> c
                         .beamHeight(0)));
 
-        this.addRarity("uncommon", TextColor.fromRgb(0x33FF33), Apoth.Items.UNCOMMON_MATERIAL, b -> b
+        this.addRarity("uncommon", TextColor.fromRgb(0x33FF33), Apoth.Items.TIMEWORN_FABRIC, b -> b
                 .sortIndex(400)
                 .weights(TieredWeights.builder()
                         .with(WorldTier.HAVEN, 15, 2)
@@ -85,7 +85,7 @@ public class NRarityProvider extends DynamicRegistryProvider<LootRarity> {
                                 .frames(20)
                                 .frameTime(1.5F))));
 
-        this.addRarity("rare", TextColor.fromRgb(0x5555FF), Apoth.Items.RARE_MATERIAL, b -> b
+        this.addRarity("rare", TextColor.fromRgb(0x5555FF), Apoth.Items.LUMINOUS_CRYSTAL_SHARD, b -> b
                 .sortIndex(500)
                 .weights(TieredWeights.builder()
                         .with(WorldTier.HAVEN, 5, 4)
@@ -109,7 +109,7 @@ public class NRarityProvider extends DynamicRegistryProvider<LootRarity> {
 
         );
 
-        this.addRarity("epic", TextColor.fromRgb(0xBB00BB), Apoth.Items.EPIC_MATERIAL, b -> b
+        this.addRarity("epic", TextColor.fromRgb(0xBB00BB), Apoth.Items.ARCANE_SANDS, b -> b
                 .sortIndex(600)
                 .weights(TieredWeights.builder()
                         .with(WorldTier.HAVEN, 0, 0)
@@ -136,7 +136,7 @@ public class NRarityProvider extends DynamicRegistryProvider<LootRarity> {
 
         );
 
-        this.addRarity("mythic", TextColor.fromRgb(0xED7014), Apoth.Items.MYTHIC_MATERIAL, b -> b
+        this.addRarity("mythic", TextColor.fromRgb(0xED7014), Apoth.Items.GODFORGED_PEARL, b -> b
                 .sortIndex(700)
                 .weights(TieredWeights.builder()
                         .with(WorldTier.HAVEN, 0, 0)

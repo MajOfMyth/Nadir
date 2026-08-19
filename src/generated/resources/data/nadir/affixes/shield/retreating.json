@@ -1,0 +1,21 @@
+{
+    "type": "apotheosis:retreating",
+    "definition": {
+        "affix_type": "ability",
+        "exclusive_set": [],
+        "weights": {
+            "quality": 0.1,
+            "weight": 25
+        }
+    },
+    "rarities": [
+        "nadir:legendary",
+        "nadir:ancient",
+        "nadir:forgotten",
+        "nadir:primal",
+        "nadir:stellar",
+        "nadir:divine",
+        "nadir:esoteric",
+        "nadir:cataclysmic"
+    ]
+}

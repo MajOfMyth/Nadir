@@ -1,0 +1,25 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "group": "nadir",
+    "key": {
+        "A": {
+            "item": "nadir:ancient_reforging_table"
+        },
+        "N": {
+            "item": "minecraft:nether_star"
+        },
+        "P": {
+            "item": "nadir:primal_material"
+        }
+    },
+    "pattern": [
+        "PNP",
+        "PAP",
+        "PPP"
+    ],
+    "result": {
+        "count": 1,
+        "id": "nadir:divine_reforging_table"
+    }
+}

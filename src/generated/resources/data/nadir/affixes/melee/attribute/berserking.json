@@ -1,0 +1,56 @@
+{
+    "type": "apotheosis:attribute",
+    "attribute": "apothic_attributes:overheal",
+    "categories": [
+        "apotheosis:melee_weapon"
+    ],
+    "definition": {
+        "affix_type": "stat",
+        "exclusive_set": [
+            "nadir:melee/attribute/vampiric"
+        ],
+        "weights": {
+            "quality": 0.1,
+            "weight": 25
+        }
+    },
+    "operation": "add_value",
+    "values": {
+        "nadir:worthless": {
+            "min": 0.01,
+            "max": 0.05
+        },
+        "nadir:legendary": {
+            "min": 0.15,
+            "max": 0.25
+        },
+        "nadir:ancient": {
+            "min": 0.2,
+            "max": 0.3
+        },
+        "nadir:forgotten": {
+            "min": 0.2,
+            "max": 0.3
+        },
+        "nadir:primal": {
+            "min": 0.25,
+            "max": 0.35
+        },
+        "nadir:stellar": {
+            "min": 0.25,
+            "max": 0.35
+        },
+        "nadir:divine": {
+            "min": 0.3,
+            "max": 0.4
+        },
+        "nadir:esoteric": {
+            "min": 0.3,
+            "max": 0.4
+        },
+        "nadir:cataclysmic": {
+            "min": 0.35,
+            "max": 0.45
+        }
+    }
+}

@@ -107,7 +107,7 @@ public class NadirReforgingScreen extends AdventureContainerScreen<NadirReforgin
 
         if (!hadItem && this.hasMainItem) {
             this.animationTick = MAX_ANIMATION_TIME;
-            this.minecraft.getSoundManager().play(SimpleSoundInstance.forUI(Apoth.Sounds.REFORGE.value(), 1F, 2F));
+            this.minecraft.getSoundManager().play(SimpleSoundInstance.forUI(Apoth.Sounds.REFORGE_ITEM_PLACED.value(), 1F, 2F));
         }
 
         if (this.hasMainItem) {
@@ -196,7 +196,7 @@ public class NadirReforgingScreen extends AdventureContainerScreen<NadirReforgin
                 PoseStack pose = gfx.pose();
                 pose.pushPose();
                 pose.translate(0.0F, 0.0F, 100.0F);
-                SalvagingScreen.renderGuiItem(gfx, slot.getItem(), slot.x, slot.y, GhostVertexBuilder.makeGhostBuffer(opacity));
+                SalvagingScreen.renderGuiItem(gfx, slot.getItem(), slot.x, slot.y, GhostVertexBuilder.wrapper(opacity));
                 pose.popPose();
             }
         }

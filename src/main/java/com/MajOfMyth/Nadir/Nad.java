@@ -24,8 +24,8 @@ public class Nad {
 
     public static class Blocks {
         public static final Holder<Block> ANCIENT_REFORGING_TABLE = R.block("ancient_reforging_table", NadirReforgingTableBlock::new, p -> p.requiresCorrectToolForDrops().strength(4, 1000F));
-        public static final Holder<Block> DIVINE_REFORGING_TABLE = R.block("divine_reforging_table", NadirReforgingTableBlock::new, p -> p.requiresCorrectToolForDrops().strength(5, 1000F));
-        public static final Holder<Block> CATACLYSMIC_REFORGING_TABLE = R.block("cataclysmic_reforging_table", NadirReforgingTableBlock::new, p -> p.requiresCorrectToolForDrops().strength(6, 1000F));
+        public static final Holder<Block> DIVINE_REFORGING_TABLE = R.block("divine_reforging_table", NadirReforgingTableBlock::new, p -> p.requiresCorrectToolForDrops().strength(4, 1000F));
+        public static final Holder<Block> CATACLYSMIC_REFORGING_TABLE = R.block("cataclysmic_reforging_table", NadirReforgingTableBlock::new, p -> p.requiresCorrectToolForDrops().strength(4, 1000F));
 
         private static void bootstrap() {}
     }

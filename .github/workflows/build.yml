@@ -21,5 +21,8 @@ jobs:
       - name: Setup Gradle
         uses: gradle/actions/setup-gradle@v4
 
+      - name: Run data generators
+        run: ./gradlew runData
+
       - name: Build with Gradle
         run: ./gradlew build

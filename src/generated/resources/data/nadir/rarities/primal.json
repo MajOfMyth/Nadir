@@ -86,11 +86,11 @@
             "weight": 0
         },
         "ascent": {
-            "quality": 4.0,
-            "weight": 5
+            "quality": 3.0,
+            "weight": 1
         },
         "summit": {
-            "weight": 50
+            "weight": 8500
         },
         "pinnacle": {
             "weight": 0

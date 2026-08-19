@@ -1,4 +1,4 @@
-// 1.21.1	2025-09-14T22:16:03.997655	Nadir Affixes
+// 1.21.1	2026-08-19T15:18:51.699836277	Nadir Affixes
 11cf6c1be9ba3d7f16951413f4001477b2ab607d data/apotheosis/affixes/breaker/ability/supermassive.json
 8a1bd6aecf3c6704e6109d3367ec72c5a7dd1b0d data/nadir/affixes/armor/attribute/adamantine.json
 388f1fb166b75b332088d9864d300465ee024139 data/nadir/affixes/armor/attribute/aquatic.json
@@ -31,7 +31,7 @@ e2b85a2780a69444e549bc676534c69d13e0f31f data/nadir/affixes/breaker/attribute/de
 fd0dfb95a759d675d9a05b1b1042c4afe30ed7f1 data/nadir/affixes/breaker/attribute/experienced.json
 bf61e31471961c8c8e4232e0ea3245aeb15c93d9 data/nadir/affixes/breaker/attribute/lengthy.json
 e7ffbb3fa0c38380c4cc56bee7b1f4fa19e1336e data/nadir/affixes/breaker/attribute/submerged.json
-60f85f719eb88a452f9295bd795883a75cc5d84b data/nadir/affixes/breaker/effect/omnetic.json
+7abd6745a544675627ba5298c537620d20a4c0c9 data/nadir/affixes/breaker/effect/omnetic.json
 06eb56859227ecf26ec0f776c27e419da6328483 data/nadir/affixes/breaker/effect/radial.json
 f97524fa66f55ae82b77f9b9e47e01f7558a79e9 data/nadir/affixes/breaker/enchantment/prosperous.json
 8d563fd8414cd4ad6fd7fb485aa983ab1a67d570 data/nadir/affixes/breaker/mob_effect/spelunkers.json
@@ -52,7 +52,7 @@ c679ed5bc477c8b75efae1fadcc82d351e0818ef data/nadir/affixes/melee/attribute/pier
 6413a37e3aa5cd4ad846f2c53d28b3de23bf685c data/nadir/affixes/melee/attribute/vampiric.json
 c77f1395fd5c0be640f1b3b02498b78cdc4ab2db data/nadir/affixes/melee/attribute/violent.json
 e8527ac8739f4baeeb9703f7909795b1cd800df9 data/nadir/affixes/melee/cleaving.json
-5e0680d2a23c915c2c01594dbd2ce69696795020 data/nadir/affixes/melee/executing.json
+3509d7d6cd366987ec8a5c8e535e296775648e0b data/nadir/affixes/melee/executing.json
 45e755f7b6ad5d4916f6c198793680de39174daf data/nadir/affixes/melee/festive.json
 530590919f6f86d657cd67abd19849647f7ea0c8 data/nadir/affixes/melee/mob_effect/bloodletting.json
 6cdf88c3dad32a22c94eb63eeaf46bff2b03f2f7 data/nadir/affixes/melee/mob_effect/caustic.json

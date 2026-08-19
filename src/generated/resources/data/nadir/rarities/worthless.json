@@ -18,7 +18,7 @@
     "sort_index": 200,
     "weights": {
         "haven": {
-            "weight": 50
+            "weight": 60
         },
         "frontier": {
             "weight": 0

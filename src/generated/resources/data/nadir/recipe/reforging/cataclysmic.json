@@ -1,6 +1,6 @@
 {
     "type": "apotheosis:reforging",
-    "level_cost": 160,
+    "level_cost": 100,
     "material_cost": 6,
     "rarity": "nadir:cataclysmic",
     "sigil_cost": 8,

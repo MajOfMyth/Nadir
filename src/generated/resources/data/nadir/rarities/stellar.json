@@ -94,10 +94,10 @@
         },
         "summit": {
             "quality": 1.0,
-            "weight": 30
+            "weight": 1000
         },
         "pinnacle": {
-            "weight": 50
+            "weight": 8500
         }
     }
 }

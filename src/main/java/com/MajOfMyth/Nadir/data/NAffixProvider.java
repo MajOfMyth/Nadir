@@ -1255,6 +1255,7 @@ public class NAffixProvider extends DynamicRegistryProvider<Affix> {
 
         this.add(Nadir.loc("melee/executing"),
                 AffixBuilder.categorized(ExecutingAffix::new)
+                        .categories(Apoth.LootCategories.MELEE_WEAPON, Apoth.LootCategories.TRIDENT)
                         .definition(AffixType.ABILITY, DEFAULT_WEIGHT, DEFAULT_QUALITY)
                         .value(legendary, 0.15F, 0.25F)
                         .value(ancient, 0.15F, 0.25F)

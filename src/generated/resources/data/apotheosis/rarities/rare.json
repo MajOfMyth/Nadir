@@ -1,7 +1,7 @@
 {
     "type": "apotheosis:rarity",
     "color": "#5555FF",
-    "material": "apotheosis:rare_material",
+    "material": "apotheosis:luminous_crystal_shard",
     "render_data": {
         "beam_height": 2.5,
         "beam_radius": 0.035,
@@ -51,11 +51,11 @@
     "sort_index": 500,
     "weights": {
         "haven": {
-            "quality": 4.0,
-            "weight": 5
+            "quality": 3.0,
+            "weight": 1
         },
         "frontier": {
-            "weight": 50
+            "weight": 800
         },
         "ascent": {
             "weight": 0

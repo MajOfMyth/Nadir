@@ -1,15 +1,15 @@
-// 1.21.1	2025-09-19T02:21:00.9705945	Nadir Rarities
-924461bc68d3a35f67305e5099666d99582e8368 data/apotheosis/rarities/common.json
-2ae19d30f298b7d39e86a611342aeffa19a87b98 data/apotheosis/rarities/epic.json
-781c71b305ce6feeb35886b388d6eea9d44160bb data/apotheosis/rarities/mythic.json
-35da3bb4b8faebd1e582c45c5c8869e5f1443a4d data/apotheosis/rarities/rare.json
-79b5ffae480ac0ae134ae444fda8c3b0317c47c0 data/apotheosis/rarities/uncommon.json
-eb9128db22ba9bcbcbeec8797eebb6052126fab7 data/nadir/rarities/ancient.json
-63123a5296c52e5c053d4423d0fa4b922c1da753 data/nadir/rarities/cataclysmic.json
-bef152808860774c75555c94588d175a41483041 data/nadir/rarities/divine.json
-066331e51b78d3a612debabc7b4ba61283bd1d05 data/nadir/rarities/esoteric.json
-a59ab7401b67e0ac7ae88d5b188a5c3ce9de8fdc data/nadir/rarities/forgotten.json
-ce2d620464247c09af8f910682df4d5d2230ee73 data/nadir/rarities/legendary.json
-b43b360a52d871e4881802af76ee9f87ed204f58 data/nadir/rarities/primal.json
-b49a3daa3e472cd35ff5594e8ba960ecb5f08ef3 data/nadir/rarities/stellar.json
-75a88c10a463a35615142682eb06242b3d946838 data/nadir/rarities/worthless.json
+// 1.21.1	2026-08-19T16:23:45.928804831	Nadir Rarities
+dd8449cf8fa903514c858b68f17d3e6fb09d337f data/apotheosis/rarities/common.json
+7547a70b8e3dccaba2a983025181c4774f21e554 data/apotheosis/rarities/epic.json
+6b6389df6f22fde7fe552628707d4b87aea94877 data/apotheosis/rarities/mythic.json
+70d0899f76759e834b98b23d4cbd7fb67451b374 data/apotheosis/rarities/rare.json
+a54605edfe03b838ffa389b3dcd171777ce9ce80 data/apotheosis/rarities/uncommon.json
+069682e7ec53226117532bf09d1d96f39cd49598 data/nadir/rarities/ancient.json
+2989660c5aec41e089fa93f0b9d3aba18dfc5b3a data/nadir/rarities/cataclysmic.json
+19592c885fdcd7789b6ae513ca2430826ffdd7ef data/nadir/rarities/divine.json
+4d0ffc08ae040aef3c01f7826e3f20f4eade1319 data/nadir/rarities/esoteric.json
+f9ca04850ea474d8c8f6985c8fc3b2bb90fc1419 data/nadir/rarities/forgotten.json
+d260aeeff8007927a191fb2d12cdce574ae2cf09 data/nadir/rarities/legendary.json
+7f77eb55f21641ce0e3d775e3145dee856c81064 data/nadir/rarities/primal.json
+92a3376670ce374e4f9030328699c086f554d214 data/nadir/rarities/stellar.json
+bc274a7c0d07797143622ab3dd43be7c02788523 data/nadir/rarities/worthless.json

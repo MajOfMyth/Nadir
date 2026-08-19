@@ -1,20 +1,20 @@
-// 1.21.1	2025-09-17T08:34:56.003857	Recipes
+// 1.21.1	2026-08-19T15:54:15.263838841	Recipes
 8f878cf1282d362dd8e1b595ddfde30a302fd952 data/nadir/recipe/ancient_reforging_table.json
 583370dba149f51d6c5a9fff02f875f1126e58f8 data/nadir/recipe/cataclysmic_reforging_table.json
 805c0f7fb8538113a3d50229dd45e21e523e5c8a data/nadir/recipe/divine_reforging_table.json
-617f7dd68631519144fe7e08034f14348f324354 data/nadir/recipe/reforging/ancient.json
-e52f83830fd2ed25a90abbf1d2793f346adced8e data/nadir/recipe/reforging/cataclysmic.json
+8940ec36293491b6606e163ac15449817b839fa0 data/nadir/recipe/reforging/ancient.json
+f1b9aae0c7dce24dea306485634b2896e5cba4fa data/nadir/recipe/reforging/cataclysmic.json
 b7332b8371212c35cba923c99befbb804dd84e18 data/nadir/recipe/reforging/common.json
-69d222a8a76199978b9e7a20e3f6d7036066afc6 data/nadir/recipe/reforging/divine.json
-c3c6e299552a69d2d72d192f87798ddbeed87d0a data/nadir/recipe/reforging/epic.json
-60a97f34e406ee0dc4630fecf365aeb6c631f76a data/nadir/recipe/reforging/esoteric.json
-d86209a2060a827907a10425a2033a7063ad5552 data/nadir/recipe/reforging/forgotten.json
-502f965ff30cebb65faf7cff36fdeed3bf33f708 data/nadir/recipe/reforging/legendary.json
-38ccba216cac5f608cf192be4e506055e91b8c38 data/nadir/recipe/reforging/mythic.json
-02fa18f768596c4d2e2914721ddfef81cf6ee739 data/nadir/recipe/reforging/primal.json
+4cb9884a6b3db1a1f8d80befa8ed24da5e1c2305 data/nadir/recipe/reforging/divine.json
+0452631057fed83ea601918994970a7e1f22313b data/nadir/recipe/reforging/epic.json
+4839dd9e1245e05a32da7c9fedd31f1073048dc5 data/nadir/recipe/reforging/esoteric.json
+c90637b2921a54f28fe9e820152ed0deada4fbb5 data/nadir/recipe/reforging/forgotten.json
+c28cf2546ee5b8b8bfd4036eb632cf9c52dcf3a9 data/nadir/recipe/reforging/legendary.json
+5ec9a6fda4f62a28b133cb409c182ec83c1c8dbf data/nadir/recipe/reforging/mythic.json
+85dc396a554602de045afd36a11ef0670388370f data/nadir/recipe/reforging/primal.json
 806a1ab7015c3d43269c1f78da00d81c9444c8fd data/nadir/recipe/reforging/rare.json
-fb989061dc3da8c070df32de0ac6ec48d47f7c18 data/nadir/recipe/reforging/stellar.json
-446dc8338271d95fd7a9ae06f3139cc7ba2d3c22 data/nadir/recipe/reforging/uncommon.json
+756f3d90fe51b07a3d2107cf3c50c0c8dec9a6ac data/nadir/recipe/reforging/stellar.json
+cf119e315a09ac6e9778ee6aa1d24416066fcdf5 data/nadir/recipe/reforging/uncommon.json
 9b0f8267e339385b1fa2ce278393c72e52866499 data/nadir/recipe/reforging/worthless.json
 52d6c5343066ad34d279b3e8d0ac9e60cc28470b data/nadir/recipe/salvaging/affix_item/ancient.json
 14fb73cc139beb883694fede117cf30b771cf342 data/nadir/recipe/salvaging/affix_item/cataclysmic.json

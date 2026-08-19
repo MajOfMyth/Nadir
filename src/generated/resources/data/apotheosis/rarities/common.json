@@ -1,7 +1,7 @@
 {
     "type": "apotheosis:rarity",
     "color": "#808080",
-    "material": "apotheosis:common_material",
+    "material": "apotheosis:mysterious_scrap_metal",
     "render_data": {
         "beam_height": 0.0,
         "beam_radius": 0.035,
@@ -27,7 +27,7 @@
     "weights": {
         "haven": {
             "quality": 1.0,
-            "weight": 30
+            "weight": 25
         },
         "frontier": {
             "weight": 0

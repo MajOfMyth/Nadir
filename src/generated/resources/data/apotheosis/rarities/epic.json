@@ -1,7 +1,7 @@
 {
     "type": "apotheosis:rarity",
     "color": "#BB00BB",
-    "material": "apotheosis:epic_material",
+    "material": "apotheosis:arcane_sands",
     "render_data": {
         "beam_height": 3.0,
         "beam_radius": 0.035,
@@ -66,7 +66,7 @@
         },
         "frontier": {
             "quality": 1.0,
-            "weight": 30
+            "weight": 150
         },
         "ascent": {
             "weight": 0

@@ -53,21 +53,21 @@ public class NRecipeProvider extends LegacyRecipeProvider {
 
         //base apotheosis rarity reforges for nadir tables
         addReforging("common", 1, 0, 2, Nad.Blocks.ANCIENT_REFORGING_TABLE, Nad.Blocks.DIVINE_REFORGING_TABLE, Nad.Blocks.CATACLYSMIC_REFORGING_TABLE);
-        addReforging("uncommon", 2, 1, 5, Nad.Blocks.ANCIENT_REFORGING_TABLE, Nad.Blocks.DIVINE_REFORGING_TABLE, Nad.Blocks.CATACLYSMIC_REFORGING_TABLE);
+        addReforging("uncommon", 1, 1, 5, Nad.Blocks.ANCIENT_REFORGING_TABLE, Nad.Blocks.DIVINE_REFORGING_TABLE, Nad.Blocks.CATACLYSMIC_REFORGING_TABLE);
         addReforging("rare", 2, 2, 15, Nad.Blocks.ANCIENT_REFORGING_TABLE, Nad.Blocks.DIVINE_REFORGING_TABLE, Nad.Blocks.CATACLYSMIC_REFORGING_TABLE);
-        addReforging("epic", 2, 4, 30, Nad.Blocks.ANCIENT_REFORGING_TABLE, Nad.Blocks.DIVINE_REFORGING_TABLE, Nad.Blocks.CATACLYSMIC_REFORGING_TABLE);
-        addReforging("mythic", 3, 5, 50, Nad.Blocks.ANCIENT_REFORGING_TABLE, Nad.Blocks.DIVINE_REFORGING_TABLE, Nad.Blocks.CATACLYSMIC_REFORGING_TABLE);
+        addReforging("epic", 2, 4, 20, Nad.Blocks.ANCIENT_REFORGING_TABLE, Nad.Blocks.DIVINE_REFORGING_TABLE, Nad.Blocks.CATACLYSMIC_REFORGING_TABLE);
+        addReforging("mythic", 2, 5, 25, Nad.Blocks.ANCIENT_REFORGING_TABLE, Nad.Blocks.DIVINE_REFORGING_TABLE, Nad.Blocks.CATACLYSMIC_REFORGING_TABLE);
 
         //nadir rarity reforges
         addNadirReforging("worthless", 1, 0, 1, Apoth.Blocks.SIMPLE_REFORGING_TABLE, Apoth.Blocks.REFORGING_TABLE, Nad.Blocks.ANCIENT_REFORGING_TABLE, Nad.Blocks.DIVINE_REFORGING_TABLE, Nad.Blocks.CATACLYSMIC_REFORGING_TABLE);
-        addNadirReforging("legendary", 3, 5, 65, Apoth.Blocks.REFORGING_TABLE, Nad.Blocks.ANCIENT_REFORGING_TABLE, Nad.Blocks.DIVINE_REFORGING_TABLE, Nad.Blocks.CATACLYSMIC_REFORGING_TABLE);
-        addNadirReforging("ancient", 3, 5, 80, Nad.Blocks.ANCIENT_REFORGING_TABLE, Nad.Blocks.DIVINE_REFORGING_TABLE, Nad.Blocks.CATACLYSMIC_REFORGING_TABLE);
-        addNadirReforging("forgotten", 3, 5, 100, Nad.Blocks.ANCIENT_REFORGING_TABLE, Nad.Blocks.DIVINE_REFORGING_TABLE, Nad.Blocks.CATACLYSMIC_REFORGING_TABLE);
-        addNadirReforging("primal", 4, 6, 110, Nad.Blocks.ANCIENT_REFORGING_TABLE, Nad.Blocks.DIVINE_REFORGING_TABLE, Nad.Blocks.CATACLYSMIC_REFORGING_TABLE);
-        addNadirReforging("stellar", 4, 6, 130, Nad.Blocks.DIVINE_REFORGING_TABLE, Nad.Blocks.CATACLYSMIC_REFORGING_TABLE);
-        addNadirReforging("divine", 4, 6, 140, Nad.Blocks.DIVINE_REFORGING_TABLE, Nad.Blocks.CATACLYSMIC_REFORGING_TABLE);
-        addNadirReforging("esoteric", 6, 8, 150, Nad.Blocks.DIVINE_REFORGING_TABLE, Nad.Blocks.CATACLYSMIC_REFORGING_TABLE);
-        addNadirReforging("cataclysmic", 6, 8, 160, Nad.Blocks.CATACLYSMIC_REFORGING_TABLE);
+        addNadirReforging("legendary", 3, 5, 30, Apoth.Blocks.REFORGING_TABLE, Nad.Blocks.ANCIENT_REFORGING_TABLE, Nad.Blocks.DIVINE_REFORGING_TABLE, Nad.Blocks.CATACLYSMIC_REFORGING_TABLE);
+        addNadirReforging("ancient", 3, 5, 40, Nad.Blocks.ANCIENT_REFORGING_TABLE, Nad.Blocks.DIVINE_REFORGING_TABLE, Nad.Blocks.CATACLYSMIC_REFORGING_TABLE);
+        addNadirReforging("forgotten", 3, 5, 50, Nad.Blocks.ANCIENT_REFORGING_TABLE, Nad.Blocks.DIVINE_REFORGING_TABLE, Nad.Blocks.CATACLYSMIC_REFORGING_TABLE);
+        addNadirReforging("primal", 4, 6, 60, Nad.Blocks.ANCIENT_REFORGING_TABLE, Nad.Blocks.DIVINE_REFORGING_TABLE, Nad.Blocks.CATACLYSMIC_REFORGING_TABLE);
+        addNadirReforging("stellar", 4, 6, 70, Nad.Blocks.DIVINE_REFORGING_TABLE, Nad.Blocks.CATACLYSMIC_REFORGING_TABLE);
+        addNadirReforging("divine", 4, 6, 80, Nad.Blocks.DIVINE_REFORGING_TABLE, Nad.Blocks.CATACLYSMIC_REFORGING_TABLE);
+        addNadirReforging("esoteric", 6, 8, 90, Nad.Blocks.DIVINE_REFORGING_TABLE, Nad.Blocks.CATACLYSMIC_REFORGING_TABLE);
+        addNadirReforging("cataclysmic", 6, 8, 100, Nad.Blocks.CATACLYSMIC_REFORGING_TABLE);
 
         //gem upgrading
 

@@ -12,6 +12,7 @@ import dev.shadowsoffire.apotheosis.Apoth.Items;
 import dev.shadowsoffire.apotheosis.Apotheosis;
 import dev.shadowsoffire.apotheosis.affix.reforging.ReforgingMenu;
 import dev.shadowsoffire.apotheosis.affix.reforging.ReforgingMenu.ReforgingResultSlot;
+import dev.shadowsoffire.apotheosis.affix.reforging.ReforgingScreen;
 import dev.shadowsoffire.apotheosis.affix.salvaging.SalvagingScreen;
 import dev.shadowsoffire.apotheosis.client.AdventureContainerScreen;
 import dev.shadowsoffire.apotheosis.client.GhostVertexBuilder;
@@ -107,7 +108,15 @@ public class NadirReforgingScreen extends AdventureContainerScreen<NadirReforgin
 
         if (!hadItem && this.hasMainItem) {
             this.animationTick = MAX_ANIMATION_TIME;
-            this.minecraft.getSoundManager().play(SimpleSoundInstance.forUI(Apoth.Sounds.REFORGE.value(), 1F, 2F));
+            this.minecraft.getSoundManager().play(
+                    SimpleSoundInstance.forUI(
+                            net.minecraft.sounds.SoundEvent.createVariableRangeEvent(
+                                    ResourceLocation.fromNamespaceAndPath("apotheosis", "reforge_item_placed")
+                            ),
+                            1F,
+                            2F
+                    )
+            );
         }
 
         if (this.hasMainItem) {
@@ -196,7 +205,7 @@ public class NadirReforgingScreen extends AdventureContainerScreen<NadirReforgin
                 PoseStack pose = gfx.pose();
                 pose.pushPose();
                 pose.translate(0.0F, 0.0F, 100.0F);
-                SalvagingScreen.renderGuiItem(gfx, slot.getItem(), slot.x, slot.y, GhostVertexBuilder.makeGhostBuffer(opacity));
+                SalvagingScreen.renderGuiItem(gfx, slot.getItem(), slot.x, slot.y, GhostVertexBuilder.wrapper(opacity));
                 pose.popPose();
             }
         }
